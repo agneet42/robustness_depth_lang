@@ -1,7 +1,5 @@
 Official PyTorch repo of "On the Robustness of Language Guidance for Low-Level Vision Tasks: Findings from Depth Estimation" [CVPR 2024]
 
-**_Getting it Right: Improving Spatial Consistency in Text-to-Image Models_** by Agneet Chatterjee, Tejas Gokhale, Chitta Baral, Yezhou Yang.
-
 <p align="center">
     📃 <a href="https://agneetchatterjee.com/" target="_blank">Paper</a> |
     🎮 <a href="https://agneetchatterjee.com/" target="_blank">Project Website</a>
@@ -12,10 +10,8 @@ _Recent advances in monocular depth estimation have been made by incorporating n
 
 ## 📚 Contents
 - [Installation](#installation)
-- [Training](#training)
-- [Inference](#inference)
-- [The SPRIGHT Dataset](#the-spright-dataset)
-- [Eval](#evaluation)
+- [Data](#data)
+- [Sample Scripts](#scripts)
 - [Citing](#citing)
 - [Acknowledgments](#ack)
 
@@ -24,56 +20,23 @@ _Recent advances in monocular depth estimation have been made by incorporating n
 
 Make sure you have CUDA and PyTorch set up. The PyTorch [official documentation](https://pytorch.org/) is the best place to refer to for that. Rest of the installation instructions are provided in the respective sections. 
 
-If you have access to the Habana Gaudi accelerators, you can benefit from them as our training script supports them.
+Follow the well-described instructions in [VPD](https://github.com/wl-zhao/VPD) to setup their code-base and download the NYUv2 dataset.
 
-<a name="training"></a>
-## 🔍 Training
+<a name="tdata"></a>
+## 🖼️ Data
 
-Refer to [`training/`](./training).
+Refer to the [`data/`](./data) directory.
 
-<a name="inference"></a>
-## 🌺 Inference
+<a name="scripts"></a>
+## 📊 Sample Scripts
 
-```python
-from diffusers import DiffusionPipeline
-import torch 
-
-spright_id = "SPRIGHT-T2I/spright-t2i-sd2"
-pipe = DiffusionPipeline.from_pretrained(spright_id, torch_dtype=torch.float16).to("cuda")
-
-image = pipe("A horse above a pizza").images[0]
-image
-```
-
-You can also run [the demo](https://huggingface.co/spaces/SPRIGHT-T2I/SPRIGHT-T2I) locally:
-
-```bash
-git clone https://huggingface.co/spaces/SPRIGHT-T2I/SPRIGHT-T2I
-cd SPRIGHT-T2I
-python app.py
-```
-
-Make sure `gradio` and other dependencies are installed in your environment.
-
-<a name="the-spright-dataset"></a>
-## 🖼️ The SPRIGHT Dataset
-
-Refer to our [paper](https://arxiv.org/abs/2404.01197) and [the dataset page](https://huggingface.co/datasets/SPRIGHT-T2I/spright) for more details. Below are some examples from the SPRIGHT dataset:
-
-<p align="center">
-<img src="assets/spright_good-1.png"/>
-</p>
-
-<a name="evaluation"></a>
-## 📊 Evaluation
-
-In the [`eval/`](./eval) directory, we provide details about the various evaluation methods we use in our work .
+Refer to the [`sample_scripts/`](./sample_scripts) directory.
 
 <a name="citing"></a>
 ## 📜 Citing
 
 ```bibtex
-@misc{chatterjee2024getting,
+@misc{chatterjee2024XYZ,
       title={XYZ}, 
       author={XYZ},
       year={2024},
