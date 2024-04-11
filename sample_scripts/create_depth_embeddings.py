@@ -28,7 +28,7 @@ def main():
             image_path = rows['test_image_path'].split(base_path)[1]
             depth_data[image_path] = rows
     
-    file_name_path = '/data_5/data/agneet/masked_depth_estimation/VPD/depth/dataset/filenames/nyudepthv2/exp2_test_list.txt'
+    file_name_path = 'depth_file_list.txt'
     ordered_data = []
     with open(file_name_path, 'r') as f:
         file = csv.reader(f)

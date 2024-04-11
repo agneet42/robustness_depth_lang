@@ -1,4 +1,4 @@
-Official PyTorch repo of "On the Robustness of Language Guidance for Low-Level Vision Tasks: Findings from Depth Estimation" [CVPR 2024]
+## "On the Robustness of Language Guidance for Low-Level Vision Tasks: Findings from Depth Estimation"
 
 <p align="center">
     📃 <a href="https://agneetchatterjee.com/" target="_blank">Paper</a> |
@@ -18,11 +18,9 @@ _Recent advances in monocular depth estimation have been made by incorporating n
 <a name="installation"></a>
 ## 💾 Installation
 
-Make sure you have CUDA and PyTorch set up. The PyTorch [official documentation](https://pytorch.org/) is the best place to refer to for that. Rest of the installation instructions are provided in the respective sections. 
+Please follow the well-described instructions in [VPD](https://github.com/wl-zhao/VPD), to setup their codebase and download the NYUv2 dataset.
 
-Follow the well-described instructions in [VPD](https://github.com/wl-zhao/VPD) to setup their code-base and download the NYUv2 dataset.
-
-<a name="tdata"></a>
+<a name="data"></a>
 ## 🖼️ Data
 
 Refer to the [`data/`](./data) directory.
