@@ -1,0 +1,3628 @@
+[
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00000.jpg",
+        "image_caption": "a kitchen with a microwave, refrigerator, and a chair",
+        "depth_sentence": "a dishwasher is in front of a faucet",
+        "horizontal_sentence": "a pot is to the right of a paper towel dispenser",
+        "vertical_sentence": "a dishwasher is below a microwave"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00001.jpg",
+        "image_caption": "a kitchen with a refrigerator and a microwave",
+        "depth_sentence": "a garbage bin is in front of a faucet",
+        "horizontal_sentence": "a sink is to the left of a bowl",
+        "vertical_sentence": "a garbage bin is below a pot"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/office/rgb_00008.jpg",
+        "image_caption": "a desk with a file cabinet and a computer on it",
+        "depth_sentence": "a tape dispenser is in front of a door",
+        "horizontal_sentence": "a chair is to the right of a box",
+        "vertical_sentence": "a garbage bin is below a bottle"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/office/rgb_00013.jpg",
+        "image_caption": "a large window in a room",
+        "depth_sentence": "a blinds is farther away than a stereo",
+        "horizontal_sentence": "a picture is to the left of a paper",
+        "vertical_sentence": "a paper is below a blinds"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/office/rgb_00014.jpg",
+        "image_caption": "a hallway with a door and a desk in the middle",
+        "depth_sentence": "a window is farther away than a sofa",
+        "horizontal_sentence": "an exit sign is to the left of a door knob",
+        "vertical_sentence": "a garbage bin is below an exit sign"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/office/rgb_00016.jpg",
+        "image_caption": "a hallway with a ladder and a shelf",
+        "depth_sentence": "a light is behind a room divider",
+        "horizontal_sentence": "a room divider is to the left of a curtain",
+        "vertical_sentence": "a light is above a table"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/office/rgb_00017.jpg",
+        "image_caption": "a ladder in a hallway with a ladder and a shelf",
+        "depth_sentence": "a table is behind a shelves",
+        "horizontal_sentence": "a door is to the left of a cabinet",
+        "vertical_sentence": "a shelves is above a table"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/office/rgb_00020.jpg",
+        "image_caption": "a room with a desk, a chair, a water bottle, and a cork board",
+        "depth_sentence": "a window is farther away than a light",
+        "horizontal_sentence": "a table is to the right of a light",
+        "vertical_sentence": "a light is above a sofa"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/office/rgb_00029.jpg",
+        "image_caption": "a room with a door and a desk",
+        "depth_sentence": "a bottle is behind a sofa",
+        "horizontal_sentence": "a box is to the left of a column",
+        "vertical_sentence": "a box is below an exit sign"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/office/rgb_00030.jpg",
+        "image_caption": "a room with a desk and a computer",
+        "depth_sentence": "a room divider is closer than a monitor",
+        "horizontal_sentence": "an exit sign is to the right of a whiteboard",
+        "vertical_sentence": "an exit sign is above a water purifier"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/office/rgb_00031.jpg",
+        "image_caption": "a desk with a computer and a phone on it",
+        "depth_sentence": "a cup is nearer than a bottle",
+        "horizontal_sentence": "a keyboard is to the left of a column",
+        "vertical_sentence": "a telephone is below a bottle"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/office/rgb_00033.jpg",
+        "image_caption": "a whiteboard on the wall",
+        "depth_sentence": "a box is closer than a monitor",
+        "horizontal_sentence": "a flipboard is to the right of a keyboard",
+        "vertical_sentence": "a stapler is above a desk"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/office/rgb_00034.jpg",
+        "image_caption": "a large room with a table and chairs",
+        "depth_sentence": "a window is behind a table",
+        "horizontal_sentence": "a clock is to the left of a window",
+        "vertical_sentence": "a table is below a garbage bin"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/office/rgb_00035.jpg",
+        "image_caption": "a large room with a large table and chairs",
+        "depth_sentence": "a map is nearer than a shelves",
+        "horizontal_sentence": "a shelves is to the left of a clock",
+        "vertical_sentence": "a shelves is above a table"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/office/rgb_00036.jpg",
+        "image_caption": "a room with a printer and a map on the wall",
+        "depth_sentence": "a hole puncher is farther away than an electrical outlet",
+        "horizontal_sentence": "a garbage bin is to the left of a tape",
+        "vertical_sentence": "a pen is below a window"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/office/rgb_00037.jpg",
+        "image_caption": "two printers on a table in a room",
+        "depth_sentence": "a light is more distant than a paper",
+        "horizontal_sentence": "a light is to the left of a shelves",
+        "vertical_sentence": "a cabinet is below a light"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/office/rgb_00039.jpg",
+        "image_caption": "a room with red blinds and a desk",
+        "depth_sentence": "a telephone is in front of an electrical outlet",
+        "horizontal_sentence": "a shelves is to the right of a projector",
+        "vertical_sentence": "a telephone is below a book"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/office/rgb_00040.jpg",
+        "image_caption": "a whiteboard in a room",
+        "depth_sentence": "a monitor is nearer than a whiteboard",
+        "horizontal_sentence": "a monitor is to the right of a stamp",
+        "vertical_sentence": "a projector screen is above a paper"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/office/rgb_00041.jpg",
+        "image_caption": "a white board with drawings on it",
+        "depth_sentence": "an eraser is farther away than a table",
+        "horizontal_sentence": "a duster is to the left of a table",
+        "vertical_sentence": "a duster is above a box"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/office/rgb_00042.jpg",
+        "image_caption": "a room with a couch and bookshelves",
+        "depth_sentence": "a door knob is closer than a pillow",
+        "horizontal_sentence": "an ethernet jack is to the right of a table",
+        "vertical_sentence": "a shelves is above a pillow"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bathroom/rgb_00045.jpg",
+        "image_caption": "a bathroom sink and a mirror in a small room",
+        "depth_sentence": "a fan is in front of a jar",
+        "horizontal_sentence": "a towel is to the right of a faucet",
+        "vertical_sentence": "a mirror is above a faucet"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bathroom/rgb_00046.jpg",
+        "image_caption": "a man is taking a picture of himself in the bathroom",
+        "depth_sentence": "a candle is more distant than a toilet paper",
+        "horizontal_sentence": "a sink is to the right of a toilet paper",
+        "vertical_sentence": "a garbage bin is below a tissue box"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_00056.jpg",
+        "image_caption": "a laptop computer sitting on a desk in a room",
+        "depth_sentence": "a headphones is closer than a deoderant",
+        "horizontal_sentence": "a deoderant is to the right of a laptop",
+        "vertical_sentence": "a night stand is above a box"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_00058.jpg",
+        "image_caption": "a room with a basketball hoop and a chair",
+        "depth_sentence": "a door is closer than a toilet paper",
+        "horizontal_sentence": "a clothes is to the right of a laptop",
+        "vertical_sentence": "a telephone is above a laptop"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_00059.jpg",
+        "image_caption": "a messy bedroom with a bed and a chair",
+        "depth_sentence": "a towel is more distant than a paper",
+        "horizontal_sentence": "a container is to the right of a bag",
+        "vertical_sentence": "a curtain is above a garbage bin"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_00060.jpg",
+        "image_caption": "a messy bedroom with a bed, a chair, and a suitcase",
+        "depth_sentence": "an air conditioner is farther away than a shoe",
+        "horizontal_sentence": "a shoe is to the right of a mens suit",
+        "vertical_sentence": "a mens suit is above a shoe"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_00062.jpg",
+        "image_caption": "a small room with a desk, a tv, and a computer",
+        "depth_sentence": "a television is more distant than a drawer",
+        "horizontal_sentence": "a contact lens solution bottle is to the right of a monitor",
+        "vertical_sentence": "a container is above a paper"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_00075.jpg",
+        "image_caption": "a messy bedroom with a bed and a window",
+        "depth_sentence": "a headboard is in front of an air conditioner",
+        "horizontal_sentence": "a radio is to the left of an alarm clock",
+        "vertical_sentence": "an air conditioner is below a picture"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_00076.jpg",
+        "image_caption": "a bedroom with a desk and a window",
+        "depth_sentence": "an air vent is more distant than a bicycle",
+        "horizontal_sentence": "a poster case is to the left of a cup",
+        "vertical_sentence": "an air conditioner is below a picture"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_00078.jpg",
+        "image_caption": "a messy bedroom with a bed and a nightstand",
+        "depth_sentence": "a shorts is closer than a hookah",
+        "horizontal_sentence": "a shorts is to the right of a picture",
+        "vertical_sentence": "a shorts is below a hookah"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bookstore/rgb_00086.jpg",
+        "image_caption": "a book store with a ladder and books on shelves",
+        "depth_sentence": "a stool is nearer than a pipe",
+        "horizontal_sentence": "a bag is to the right of a stool",
+        "vertical_sentence": "a bag is above a stool"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bookstore/rgb_00090.jpg",
+        "image_caption": "a store with lots of backpacks and bags on display",
+        "depth_sentence": "a column is farther away than a shelves",
+        "horizontal_sentence": "a books is to the right of a column",
+        "vertical_sentence": "a books is below a light"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bookstore/rgb_00116.jpg",
+        "image_caption": "a bookstore with tables and chairs in it",
+        "depth_sentence": "a pipe is farther away than a bookshelf",
+        "horizontal_sentence": "a pipe is to the right of a gate",
+        "vertical_sentence": "a clothes is below a pipe"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bookstore/rgb_00117.jpg",
+        "image_caption": "a bookstore with tables and chairs in it",
+        "depth_sentence": "a bookrack is more distant than a gate",
+        "horizontal_sentence": "a bookrack is to the right of a table",
+        "vertical_sentence": "a cup is below a bookrack"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00124.jpg",
+        "image_caption": "a kitchen with a refrigerator and a microwave",
+        "depth_sentence": "an oven is behind a scarf",
+        "horizontal_sentence": "a plant pot is to the right of a bag",
+        "vertical_sentence": "a spice rack is above a garbage bin"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00125.jpg",
+        "image_caption": "a kitchen with a refrigerator and a microwave",
+        "depth_sentence": "a box is in front of a spice rack",
+        "horizontal_sentence": "a box is to the left of a jar",
+        "vertical_sentence": "a box is above a paper"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00126.jpg",
+        "image_caption": "a kitchen with a sink, a counter, and cabinets",
+        "depth_sentence": "a faucet is farther away than a toaster",
+        "horizontal_sentence": "a picture is to the left of a bag of chips",
+        "vertical_sentence": "an electrical outlet is above a container"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00127.jpg",
+        "image_caption": "a kitchen counter with a bunch of utensils and a bottle of wine",
+        "depth_sentence": "a ladel is closer than a picture",
+        "horizontal_sentence": "a stove is to the left of a ladel",
+        "vertical_sentence": "a ladel is above a cooking pan"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00128.jpg",
+        "image_caption": "a stove top with a kettle on it",
+        "depth_sentence": "a towel is closer than a tray",
+        "horizontal_sentence": "a pot is to the left of a spice rack",
+        "vertical_sentence": "a tray is below a cabinet"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00130.jpg",
+        "image_caption": "a kitchen with a stove, microwave, and refrigerator",
+        "depth_sentence": "a towel is more distant than a refridgerator",
+        "horizontal_sentence": "a jar is to the left of a paper towel",
+        "vertical_sentence": "a cutting board is above a tin foil"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00131.jpg",
+        "image_caption": "a kitchen sink with a towel hanging on the wall",
+        "depth_sentence": "a container is in front of a towel",
+        "horizontal_sentence": "a spice rack is to the left of a cutting board",
+        "vertical_sentence": "a sink is below a spice rack"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00132.jpg",
+        "image_caption": "a kitchen with a sink and a towel rack",
+        "depth_sentence": "a sink is more distant than a bottle",
+        "horizontal_sentence": "a counter is to the left of a cutting board",
+        "vertical_sentence": "a towel is above a plate"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00133.jpg",
+        "image_caption": "a kitchen with a refrigerator and a blender",
+        "depth_sentence": "a refridgerator is nearer than a picture",
+        "horizontal_sentence": "a bottle is to the right of a blender",
+        "vertical_sentence": "a picture is above a towel"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00136.jpg",
+        "image_caption": "a kitchen with a microwave, a sink, and a counter",
+        "depth_sentence": "a bowl is closer than a bottle",
+        "horizontal_sentence": "a sink is to the right of a pizza box",
+        "vertical_sentence": "a bowl is below a faucet"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/living_room/rgb_00152.jpg",
+        "image_caption": "a red couch in a dark room",
+        "depth_sentence": "a cup is in front of a picture",
+        "horizontal_sentence": "a shelves is to the right of a cup",
+        "vertical_sentence": "a cup is below a blinds"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/living_room/rgb_00154.jpg",
+        "image_caption": "a brick wall",
+        "depth_sentence": "a laptop is in front of an oven",
+        "horizontal_sentence": "an oven is to the right of a wall stand",
+        "vertical_sentence": "a box is below a stove"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/living_room/rgb_00168.jpg",
+        "image_caption": "a television is on in a room",
+        "depth_sentence": "a door knob is farther away than a speaker",
+        "horizontal_sentence": "a cart is to the left of a vacuum cleaner",
+        "vertical_sentence": "a door knob is above a dvd"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_00170.jpg",
+        "image_caption": "a couch in a living room with a bookcase and a tv",
+        "depth_sentence": "a radiator is behind a door",
+        "horizontal_sentence": "a towel is to the right of a basket",
+        "vertical_sentence": "a door is above a table"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_00171.jpg",
+        "image_caption": "a living room with a couch, a chair, a bookcase and a table",
+        "depth_sentence": "a towel is nearer than a picture",
+        "horizontal_sentence": "a window is to the left of a table",
+        "vertical_sentence": "a picture is above a window"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_00172.jpg",
+        "image_caption": "a bedroom with a bed, a chair, and a dresser",
+        "depth_sentence": "a pillow is nearer than a window",
+        "horizontal_sentence": "a pillow is to the right of a radiator",
+        "vertical_sentence": "a tissue box is above a floor mat"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_00173.jpg",
+        "image_caption": "a messy bedroom with a bed and dresser",
+        "depth_sentence": "a bed is closer than a picture",
+        "horizontal_sentence": "a floor mat is to the left of a tissue box",
+        "vertical_sentence": "a lamp is above a bin"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_00174.jpg",
+        "image_caption": "a bedroom with a bed, a dresser, a clock, and a window",
+        "depth_sentence": "a picture is closer than a radiator",
+        "horizontal_sentence": "a shelves is to the right of an ipod",
+        "vertical_sentence": "a laundry basket is below a picture"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_00175.jpg",
+        "image_caption": "a messy bedroom with a bed, a lamp, and a suitcase",
+        "depth_sentence": "a clothes is closer than a blinds",
+        "horizontal_sentence": "a bag is to the right of a tissue box",
+        "vertical_sentence": "a night stand is below a blinds"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_00179.jpg",
+        "image_caption": "a bed with a white headboard",
+        "depth_sentence": "an electrical outlet is in front of a blinds",
+        "horizontal_sentence": "an electrical outlet is to the right of a bed",
+        "vertical_sentence": "an electrical outlet is below a blinds"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_00183.jpg",
+        "image_caption": "a room with a desk, chair, and a picture on the wall",
+        "depth_sentence": "a bottle is more distant than a bed",
+        "horizontal_sentence": "a bed is to the right of a bottle",
+        "vertical_sentence": "a bottle is above a book"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_00184.jpg",
+        "image_caption": "a desk with a computer and books on it",
+        "depth_sentence": "a pen stand is closer than a curtain",
+        "horizontal_sentence": "a chair is to the right of a pen stand",
+        "vertical_sentence": "a mouse is below a lamp"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_00185.jpg",
+        "image_caption": "a lamp and a mirror in a room",
+        "depth_sentence": "a heater is behind a books",
+        "horizontal_sentence": "a mouse is to the right of a mirror",
+        "vertical_sentence": "a mouse is below a curtain"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_00186.jpg",
+        "image_caption": "a room with a book shelf and a lamp",
+        "depth_sentence": "a box is in front of a picture",
+        "horizontal_sentence": "a dresser is to the left of a heater",
+        "vertical_sentence": "a picture is above a paper"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_00189.jpg",
+        "image_caption": "a bed with a blanket on it and pictures on the wall",
+        "depth_sentence": "a lamp is more distant than a clothes",
+        "horizontal_sentence": "a lamp is to the left of a clothes",
+        "vertical_sentence": "a clothes is below a lamp"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_00190.jpg",
+        "image_caption": "a black bookcase with a bunch of books on it",
+        "depth_sentence": "a bookshelf is nearer than a picture",
+        "horizontal_sentence": "a bookshelf is to the right of a door knob",
+        "vertical_sentence": "a door knob is below a picture"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00193.jpg",
+        "image_caption": "a kitchen sink and a cabinet in a small room",
+        "depth_sentence": "a faucet is farther away than a door knob",
+        "horizontal_sentence": "a towel is to the right of a bottle",
+        "vertical_sentence": "a picture is above a sink"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00194.jpg",
+        "image_caption": "a bathroom with a sink and a mirror",
+        "depth_sentence": "a hair brush is in front of a bottle",
+        "horizontal_sentence": "a mirror is to the left of a towel",
+        "vertical_sentence": "a cabinet is below an electrical outlet"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00195.jpg",
+        "image_caption": "a kitchen with a stove and refrigerator",
+        "depth_sentence": "a curtain is farther away than a counter",
+        "horizontal_sentence": "a knife rack is to the left of a counter",
+        "vertical_sentence": "a microwave is above an oven"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00197.jpg",
+        "image_caption": "a kitchen with a refrigerator, a sink, and a box",
+        "depth_sentence": "a towel is in front of a potato",
+        "horizontal_sentence": "a box is to the right of an urn",
+        "vertical_sentence": "a potato is below an urn"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00198.jpg",
+        "image_caption": "a kitchen with a counter and cabinets",
+        "depth_sentence": "a baking dish is nearer than a tea kettle",
+        "horizontal_sentence": "a basket is to the right of a tea kettle",
+        "vertical_sentence": "a knife rack is above an urn"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00199.jpg",
+        "image_caption": "a small table with a bottle of wine and a coat",
+        "depth_sentence": "a bottle is more distant than a cell phone",
+        "horizontal_sentence": "a placemat is to the left of a television",
+        "vertical_sentence": "a bottle is above a cell phone"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00200.jpg",
+        "image_caption": "a living room with a television and a bookcase",
+        "depth_sentence": "a bookshelf is farther away than a jacket",
+        "horizontal_sentence": "a door is to the right of a dvd player",
+        "vertical_sentence": "a book is above a surge protector"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00201.jpg",
+        "image_caption": "a red couch with pillows on it",
+        "depth_sentence": "a sofa is in front of a counter",
+        "horizontal_sentence": "a floor mat is to the right of a clothes",
+        "vertical_sentence": "a towel is above a floor mat"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/living_room/rgb_00206.jpg",
+        "image_caption": "a bookcase with books on it",
+        "depth_sentence": "a towel is farther away than a mask",
+        "horizontal_sentence": "a counter is to the left of an apple",
+        "vertical_sentence": "an apple is above a counter"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/living_room/rgb_00207.jpg",
+        "image_caption": "a black refrigerator in a room with a chair",
+        "depth_sentence": "a box is farther away than a cable box",
+        "horizontal_sentence": "an air conditioner is to the left of a cable box",
+        "vertical_sentence": "a chair is below a box"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/living_room/rgb_00210.jpg",
+        "image_caption": "a table with chairs and a mirror in a room",
+        "depth_sentence": "a wine bottle is in front of a microwave",
+        "horizontal_sentence": "a clothes is to the left of a microwave",
+        "vertical_sentence": "a microwave is above a bag"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/living_room/rgb_00211.jpg",
+        "image_caption": "a kitchen with a table and a shelf",
+        "depth_sentence": "a baking dish is more distant than a book",
+        "horizontal_sentence": "a book is to the left of a baking dish",
+        "vertical_sentence": "a table is below a basket"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_00219.jpg",
+        "image_caption": "a small bedroom with a bed and a television",
+        "depth_sentence": "a pipe is behind a clothes",
+        "horizontal_sentence": "a clothes is to the right of a dresser",
+        "vertical_sentence": "a television is above a clothes"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_00220.jpg",
+        "image_caption": "a bedroom with a bed and a dresser",
+        "depth_sentence": "a garbage bin is behind a night stand",
+        "horizontal_sentence": "a deoderant is to the left of a bowl",
+        "vertical_sentence": "a picture is above a deoderant"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_00221.jpg",
+        "image_caption": "a man standing in a room with a bed and a dresser",
+        "depth_sentence": "a table is farther away than a bed",
+        "horizontal_sentence": "a person is to the right of a bed",
+        "vertical_sentence": "a garbage bin is below a lamp"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00249.jpg",
+        "image_caption": "a kitchen with a stove, oven, and cabinets",
+        "depth_sentence": "a sink is more distant than a cup",
+        "horizontal_sentence": "a counter is to the right of a bag",
+        "vertical_sentence": "a shelves is above a tea kettle"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/living_room/rgb_00263.jpg",
+        "image_caption": "a room with a chair and a table in it",
+        "depth_sentence": "a monitor is more distant than a printer",
+        "horizontal_sentence": "a sofa is to the left of a printer",
+        "vertical_sentence": "a vase is above a bag"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/office/rgb_00270.jpg",
+        "image_caption": "a conference room with a chalkboard and chairs",
+        "depth_sentence": "a coaster is nearer than a picture",
+        "horizontal_sentence": "a lighting track is to the right of a coaster",
+        "vertical_sentence": "a coaster is below a picture"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/office/rgb_00271.jpg",
+        "image_caption": "a man sitting at a desk with a computer on it",
+        "depth_sentence": "a door is more distant than a book",
+        "horizontal_sentence": "a books is to the right of a door",
+        "vertical_sentence": "a bag is below a books"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/study_room/rgb_00272.jpg",
+        "image_caption": "a large room with many tables and chairs",
+        "depth_sentence": "a wall decoration is farther away than an electrical outlet",
+        "horizontal_sentence": "a bookshelf is to the left of an electrical outlet",
+        "vertical_sentence": "an electrical outlet is below a door"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/study_room/rgb_00278.jpg",
+        "image_caption": "a large room with many computers and chairs",
+        "depth_sentence": "a table is in front of a column",
+        "horizontal_sentence": "a window is to the right of a column",
+        "vertical_sentence": "a mouse is above a table"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_00279.jpg",
+        "image_caption": "a small room with a bed and a small table",
+        "depth_sentence": "a toy is farther away than a picture",
+        "horizontal_sentence": "a floor mat is to the left of a cabinet",
+        "vertical_sentence": "a blinds is above a floor mat"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_00280.jpg",
+        "image_caption": "a small bedroom with a bed and a bookcase",
+        "depth_sentence": "a blinds is behind a floor mat",
+        "horizontal_sentence": "a picture is to the left of a blinds",
+        "vertical_sentence": "a paper is below a blinds"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_00281.jpg",
+        "image_caption": "a living room with a couch and a book shelf",
+        "depth_sentence": "a sofa is nearer than a clothes",
+        "horizontal_sentence": "a window is to the left of a bed",
+        "vertical_sentence": "a clock is above a bed"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/classroom/rgb_00284.jpg",
+        "image_caption": "a classroom with colorful checkered flooring and chairs",
+        "depth_sentence": "a whiteboard is closer than a chart stand",
+        "horizontal_sentence": "a container is to the right of a cabinet",
+        "vertical_sentence": "a table is below a whiteboard"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/classroom/rgb_00295.jpg",
+        "image_caption": "a classroom with desks and chairs in it",
+        "depth_sentence": "a books is nearer than a table",
+        "horizontal_sentence": "a classroom board is to the right of a laptop",
+        "vertical_sentence": "a books is below a laptop"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/classroom/rgb_00296.jpg",
+        "image_caption": "a classroom with a desk, a chair, and a backpack",
+        "depth_sentence": "a table is closer than a window",
+        "horizontal_sentence": "a whiteboard is to the left of a laptop",
+        "vertical_sentence": "a light is above a laptop"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/classroom/rgb_00297.jpg",
+        "image_caption": "a classroom with desks and chairs in it",
+        "depth_sentence": "a tray is nearer than a cork board",
+        "horizontal_sentence": "a plastic rack is to the right of a notebook",
+        "vertical_sentence": "a plastic crate is above a tray"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/classroom/rgb_00298.jpg",
+        "image_caption": "a classroom with desks and chairs in it",
+        "depth_sentence": "a folder is closer than a plastic tray",
+        "horizontal_sentence": "a flower is to the right of a plastic tray",
+        "vertical_sentence": "a stereo is above a books"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/classroom/rgb_00299.jpg",
+        "image_caption": "a classroom with desks and chairs in it",
+        "depth_sentence": "a poster board is nearer than an air vent",
+        "horizontal_sentence": "an electrical outlet is to the left of a bookshelf",
+        "vertical_sentence": "a clock is above an electrical outlet"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/classroom/rgb_00300.jpg",
+        "image_caption": "a classroom with desks and chairs and a computer",
+        "depth_sentence": "a table is in front of a cabinet",
+        "horizontal_sentence": "a cabinet is to the left of an electrical outlet",
+        "vertical_sentence": "a bookshelf is above a folder"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/classroom/rgb_00301.jpg",
+        "image_caption": "a classroom with desks and backpacks",
+        "depth_sentence": "an air vent is farther away than a garbage bin",
+        "horizontal_sentence": "an air vent is to the right of a coat hanger",
+        "vertical_sentence": "an air vent is above a table"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/classroom/rgb_00311.jpg",
+        "image_caption": "a classroom with a table and chairs in it",
+        "depth_sentence": "a cork board is behind a tray",
+        "horizontal_sentence": "a pencil is to the right of a book",
+        "vertical_sentence": "a hat is below a pencil"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/classroom/rgb_00315.jpg",
+        "image_caption": "a classroom with tables and chairs and a large rug",
+        "depth_sentence": "a cork board is behind a tray",
+        "horizontal_sentence": "a tray is to the left of a floor mat",
+        "vertical_sentence": "a tray is below a cork board"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/classroom/rgb_00316.jpg",
+        "image_caption": "a classroom with tables and chairs, a large round rug and a large bulletin board",
+        "depth_sentence": "a floor mat is closer than a laptop",
+        "horizontal_sentence": "a bin is to the left of a light",
+        "vertical_sentence": "a garbage bin is below a laptop"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/classroom/rgb_00325.jpg",
+        "image_caption": "a classroom with toys and a table",
+        "depth_sentence": "a toy box is more distant than a sink",
+        "horizontal_sentence": "a sink is to the right of a bottle",
+        "vertical_sentence": "a toy box is below a door"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/classroom/rgb_00326.jpg",
+        "image_caption": "a classroom with toys and a table",
+        "depth_sentence": "a paper towel is farther away than a toy trucks",
+        "horizontal_sentence": "a cabinet is to the right of a paper towel",
+        "vertical_sentence": "a toy truck is below a tissue box"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/classroom/rgb_00327.jpg",
+        "image_caption": "a classroom with toys and a rug",
+        "depth_sentence": "a sink is more distant than a box",
+        "horizontal_sentence": "a shelves is to the left of a box",
+        "vertical_sentence": "a chair is below a sink"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/classroom/rgb_00329.jpg",
+        "image_caption": "a classroom with tables and chairs in it",
+        "depth_sentence": "a ruler is in front of a box",
+        "horizontal_sentence": "a books is to the right of a plastic box",
+        "vertical_sentence": "a plastic box is above a ruler"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/classroom/rgb_00330.jpg",
+        "image_caption": "a classroom with a large rug and lots of toys",
+        "depth_sentence": "a chair is in front of a lid of jar",
+        "horizontal_sentence": "an air vent is to the left of a jar",
+        "vertical_sentence": "an air vent is above a rug"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/classroom/rgb_00331.jpg",
+        "image_caption": "a classroom with desks and chairs in it",
+        "depth_sentence": "a light is more distant than a stuffed animal",
+        "horizontal_sentence": "a roll of paper towels is to the left of a display board",
+        "vertical_sentence": "a light is above a roll of paper towels"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/computer_lab/rgb_00333.jpg",
+        "image_caption": "a classroom with computers and desks in it",
+        "depth_sentence": "a table is farther away than a mouse",
+        "horizontal_sentence": "a table is to the left of a bottle",
+        "vertical_sentence": "a mouse is above a bottle"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/home_office/rgb_00354.jpg",
+        "image_caption": "a home office with a desk, chair, and bookshelf",
+        "depth_sentence": "a television is closer than a remote control",
+        "horizontal_sentence": "a bookshelf is to the left of a keyboard",
+        "vertical_sentence": "a remote control is below a monitor"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/home_office/rgb_00355.jpg",
+        "image_caption": "a living room with a couch, chair, and a potted plant",
+        "depth_sentence": "a plant pot is in front of a clock",
+        "horizontal_sentence": "a plant is to the left of a bookshelf",
+        "vertical_sentence": "a bookshelf is above a plant pot"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/home_office/rgb_00357.jpg",
+        "image_caption": "a home office with a desk, chair, and bookshelf",
+        "depth_sentence": "a box is in front of a bookshelf",
+        "horizontal_sentence": "a paper is to the right of a television",
+        "vertical_sentence": "a mouse is below a television"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/home_office/rgb_00359.jpg",
+        "image_caption": "a black chair with a computer desk in front of it",
+        "depth_sentence": "a blinds is more distant than a door",
+        "horizontal_sentence": "a blinds is to the left of a picture",
+        "vertical_sentence": "a pen is below a picture"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/home_office/rgb_00360.jpg",
+        "image_caption": "a desk with a computer and a picture frame on it",
+        "depth_sentence": "a books is behind a cork board",
+        "horizontal_sentence": "a cup is to the right of a box",
+        "vertical_sentence": "a cup is below a books"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/home_office/rgb_00362.jpg",
+        "image_caption": "a dark room with a desk and chair",
+        "depth_sentence": "a pillow is nearer than a picture",
+        "horizontal_sentence": "a paper is to the right of a pillow",
+        "vertical_sentence": "a picture is above a pillow"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/home_office/rgb_00363.jpg",
+        "image_caption": "a living room with a couch and a chair",
+        "depth_sentence": "a magazine is nearer than a cabinet",
+        "horizontal_sentence": "a paper is to the right of a cabinet",
+        "vertical_sentence": "a magazine is below a picture"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/home_office/rgb_00383.jpg",
+        "image_caption": "a desk with books and a chair in front of a fireplace",
+        "depth_sentence": "a chair is farther away than a magazine",
+        "horizontal_sentence": "a menorah is to the left of a pyramid",
+        "vertical_sentence": "a magazine is below a books"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/home_office/rgb_00386.jpg",
+        "image_caption": "a home office with a desk and a chair",
+        "depth_sentence": "a lamp is more distant than a table",
+        "horizontal_sentence": "a printer is to the right of a book",
+        "vertical_sentence": "a printer is above a table"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/home_office/rgb_00387.jpg",
+        "image_caption": "a desk with a computer and a chair in a home office",
+        "depth_sentence": "a clock is behind a file",
+        "horizontal_sentence": "a bookshelf is to the left of a file",
+        "vertical_sentence": "a bookshelf is above a box"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/home_office/rgb_00388.jpg",
+        "image_caption": "a cluttered desk with a computer and printer",
+        "depth_sentence": "a sculpture is farther away than a printer",
+        "horizontal_sentence": "a mouse is to the left of a sculpture",
+        "vertical_sentence": "a sculpture is above a box"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/home_office/rgb_00389.jpg",
+        "image_caption": "a cluttered desk with a computer and a bag of papers",
+        "depth_sentence": "a decorative platter is closer than a keyboard",
+        "horizontal_sentence": "a clock is to the right of a cell phone",
+        "vertical_sentence": "a desk drawer is below a shelves"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/home_office/rgb_00394.jpg",
+        "image_caption": "two men sitting at a desk",
+        "depth_sentence": "a toy plane is farther away than a wire",
+        "horizontal_sentence": "a monitor is to the left of a wire",
+        "vertical_sentence": "a bottle is below a toy plane"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/home_office/rgb_00395.jpg",
+        "image_caption": "a man sitting at a desk with a laptop and papers",
+        "depth_sentence": "a cabinet is behind a wire",
+        "horizontal_sentence": "a monitor is to the right of a box",
+        "vertical_sentence": "a wire is below a shelves"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/office_kitchen/rgb_00410.jpg",
+        "image_caption": "a large table with chairs and a microwave",
+        "depth_sentence": "a garbage bin is behind a tray",
+        "horizontal_sentence": "a faucet is to the right of a mirror",
+        "vertical_sentence": "a water purifier is below a hand sanitizer dispenser"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/office_kitchen/rgb_00411.jpg",
+        "image_caption": "a kitchen with a table and chairs in it",
+        "depth_sentence": "a sink is more distant than a mirror",
+        "horizontal_sentence": "a faucet is to the right of a pitcher",
+        "vertical_sentence": "a faucet is below a mirror"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/office_kitchen/rgb_00412.jpg",
+        "image_caption": "a kitchen with a sink and cabinets",
+        "depth_sentence": "a tray is closer than a bottle",
+        "horizontal_sentence": "a soap holder is to the left of a bottle",
+        "vertical_sentence": "a bowl is below a faucet"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/office_kitchen/rgb_00413.jpg",
+        "image_caption": "a room with a table and chairs and a trash can",
+        "depth_sentence": "a hand sanitizer dispenser is more distant than a refridgerator",
+        "horizontal_sentence": "a garbage bin is to the right of a mail shelf",
+        "vertical_sentence": "a refridgerator is below a cork board"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/playroom/rgb_00429.jpg",
+        "image_caption": "a red couch in a living room with a pool table",
+        "depth_sentence": "a picture is behind a sofa",
+        "horizontal_sentence": "a pool sticks is to the left of a remote control",
+        "vertical_sentence": "a picture is above a chessboard"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/playroom/rgb_00430.jpg",
+        "image_caption": "a living room with a red couch and a tv",
+        "depth_sentence": "a guitar is nearer than a window",
+        "horizontal_sentence": "a television is to the right of a window",
+        "vertical_sentence": "a video game is below a television"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/playroom/rgb_00432.jpg",
+        "image_caption": "a pool table in a room with framed pictures",
+        "depth_sentence": "a window is farther away than a pool ball",
+        "horizontal_sentence": "a stairs is to the left of a window",
+        "vertical_sentence": "a stairs is below a window"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/playroom/rgb_00433.jpg",
+        "image_caption": "a dining room with a table and chairs",
+        "depth_sentence": "an ottoman is closer than a light",
+        "horizontal_sentence": "a vase is to the right of an ottoman",
+        "vertical_sentence": "a light is above an ottoman"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/playroom/rgb_00434.jpg",
+        "image_caption": "a red couch with a television and a bunch of clothes on it",
+        "depth_sentence": "a bag is behind a television",
+        "horizontal_sentence": "a bag is to the right of an electrical outlet",
+        "vertical_sentence": "a television is above an electrical outlet"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/playroom/rgb_00440.jpg",
+        "image_caption": "a room with a table and chair in front of a window",
+        "depth_sentence": "a mirror is behind a paper",
+        "horizontal_sentence": "a pen is to the left of a paper",
+        "vertical_sentence": "a cabinet is below a light"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/playroom/rgb_00441.jpg",
+        "image_caption": "a playroom with toys and a mirror",
+        "depth_sentence": "a stick is nearer than a stool",
+        "horizontal_sentence": "a table is to the right of a rug",
+        "vertical_sentence": "a rug is below a fan"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/playroom/rgb_00442.jpg",
+        "image_caption": "a playroom with toys and a refrigerator",
+        "depth_sentence": "a car is closer than a paper",
+        "horizontal_sentence": "a toy cash register is to the left of a tray",
+        "vertical_sentence": "a paper is below a bag"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/playroom/rgb_00443.jpg",
+        "image_caption": "a room with a chair, toys, and a play table",
+        "depth_sentence": "a doll is in front of a column",
+        "horizontal_sentence": "a box is to the right of a doll",
+        "vertical_sentence": "a chair is below a window"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/playroom/rgb_00444.jpg",
+        "image_caption": "a living room with a couch and a chair",
+        "depth_sentence": "a box is more distant than a purse",
+        "horizontal_sentence": "a cabinet is to the left of a paper",
+        "vertical_sentence": "a purse is below a cup"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/playroom/rgb_00445.jpg",
+        "image_caption": "a room with a couch and a bunch of toys on the floor",
+        "depth_sentence": "an electrical outlet is closer than a window",
+        "horizontal_sentence": "a basket is to the right of a cabinet",
+        "vertical_sentence": "an electrical outlet is below a basket"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/playroom/rgb_00446.jpg",
+        "image_caption": "a messy room with a yellow chair and a dresser",
+        "depth_sentence": "a basket is nearer than a lid",
+        "horizontal_sentence": "a cabinet is to the right of a basket",
+        "vertical_sentence": "a basket is below a counter"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/playroom/rgb_00447.jpg",
+        "image_caption": "a kitchen counter with drawers and a picture on the wall",
+        "depth_sentence": "a toy is more distant than a cell phone",
+        "horizontal_sentence": "a book is to the right of a bottle",
+        "vertical_sentence": "a bag is above a toy"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/reception_room/rgb_00461.jpg",
+        "image_caption": "a living room with a couch, coffee table and a rug",
+        "depth_sentence": "a table is nearer than a paper",
+        "horizontal_sentence": "a paper is to the left of a table",
+        "vertical_sentence": "a table is below a paper"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/reception_room/rgb_00464.jpg",
+        "image_caption": "a living room with a couch, coffee table and a glass coffee table",
+        "depth_sentence": "a table is closer than a display case",
+        "horizontal_sentence": "a sofa is to the left of a chair",
+        "vertical_sentence": "a display case is above a pillow"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/study/rgb_00469.jpg",
+        "image_caption": "a man sitting at a desk in an office",
+        "depth_sentence": "a cabinet is behind a computer",
+        "horizontal_sentence": "a box is to the right of a person",
+        "vertical_sentence": "a shelves is below a cork board"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/study/rgb_00471.jpg",
+        "image_caption": "a room with a bookcase and a tv",
+        "depth_sentence": "a plant is in front of a table",
+        "horizontal_sentence": "an electrical outlet is to the left of a table",
+        "vertical_sentence": "a show piece is above a computer"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/study/rgb_00473.jpg",
+        "image_caption": "a desk with a laptop on it and a book on it",
+        "depth_sentence": "a mouse is nearer than a clock",
+        "horizontal_sentence": "a lamp is to the right of a clock",
+        "vertical_sentence": "a picture is above a cabinet"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/study/rgb_00474.jpg",
+        "image_caption": "a home office with a couch and a desk",
+        "depth_sentence": "a basketball is in front of a computer",
+        "horizontal_sentence": "a computer is to the left of a basketball",
+        "vertical_sentence": "a desk is below a monitor"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/study/rgb_00475.jpg",
+        "image_caption": "a desk with books and a basketball on it",
+        "depth_sentence": "a table is nearer than a cabinet",
+        "horizontal_sentence": "a table is to the right of a cabinet",
+        "vertical_sentence": "a cd is below a clock"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/study/rgb_00476.jpg",
+        "image_caption": "a room with a basketball hoop and a couch",
+        "depth_sentence": "a fiberglass case is nearer than a books",
+        "horizontal_sentence": "a pillow is to the left of a fiberglass case",
+        "vertical_sentence": "a ball is below a blinds"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bathroom/rgb_00507.jpg",
+        "image_caption": "a bathroom with a toilet, sink, and bathtub",
+        "depth_sentence": "a rug is farther away than a sink",
+        "horizontal_sentence": "a counter is to the left of a toilet paper",
+        "vertical_sentence": "a towel is above a sink"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bathroom/rgb_00508.jpg",
+        "image_caption": "a bathroom with a sink and a tub",
+        "depth_sentence": "a faucet is nearer than a window",
+        "horizontal_sentence": "a bathtub is to the right of a cup",
+        "vertical_sentence": "a window is above a faucet"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bathroom/rgb_00509.jpg",
+        "image_caption": "a bathroom with a sink and a tub",
+        "depth_sentence": "a window is farther away than a cup",
+        "horizontal_sentence": "a window is to the right of a cabinet",
+        "vertical_sentence": "a light switch is above a bathtub"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bathroom/rgb_00510.jpg",
+        "image_caption": "a bathroom with a toilet, sink, and bathtub",
+        "depth_sentence": "a door knob is behind a faucet",
+        "horizontal_sentence": "a deoderant is to the right of a bathtub",
+        "vertical_sentence": "a floor mat is below a sink"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bathroom/rgb_00511.jpg",
+        "image_caption": "a bathroom with a toilet, sink, and bathtub",
+        "depth_sentence": "a bathtub is farther away than a shaving cream",
+        "horizontal_sentence": "a squeeze tube is to the right of a door",
+        "vertical_sentence": "a sponge is above a shaver"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bathroom/rgb_00512.jpg",
+        "image_caption": "a white shower with a green towel on the wall",
+        "depth_sentence": "a bar of soap is behind a shower curtain",
+        "horizontal_sentence": "a bar of soap is to the left of a bottle",
+        "vertical_sentence": "a sponge is above a bar of soap"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_00515.jpg",
+        "image_caption": "a bedroom with a bed and a desk",
+        "depth_sentence": "a picture is more distant than a rolled carpet",
+        "horizontal_sentence": "a rolled carpet is to the left of a picture",
+        "vertical_sentence": "a box is below a picture"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_00516.jpg",
+        "image_caption": "a bedroom with a bed, a chair, and a bookcase",
+        "depth_sentence": "a table is in front of a picture",
+        "horizontal_sentence": "a book is to the left of a bed",
+        "vertical_sentence": "a picture is above a paper"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_00517.jpg",
+        "image_caption": "a bed with a quilt and pillows",
+        "depth_sentence": "a tissue box is farther away than a picture",
+        "horizontal_sentence": "a paper towel is to the left of a picture",
+        "vertical_sentence": "a clothing drying rack is below a tissue box"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_00518.jpg",
+        "image_caption": "a man standing in a bedroom with a bookcase",
+        "depth_sentence": "a basket is nearer than a candlestick",
+        "horizontal_sentence": "a pillow is to the right of a bookshelf",
+        "vertical_sentence": "a night stand is above a basket"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_00519.jpg",
+        "image_caption": "a bedroom with a bed, dresser and a fan",
+        "depth_sentence": "a window is farther away than a table",
+        "horizontal_sentence": "a dresser is to the right of a clothing hanger",
+        "vertical_sentence": "a clothing hanger is above a dresser"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_00520.jpg",
+        "image_caption": "a bed with a blanket and a pillow",
+        "depth_sentence": "an alarm clock is in front of a window",
+        "horizontal_sentence": "an alarm clock is to the left of a curtain",
+        "vertical_sentence": "a toilet paper is below a curtain"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_00521.jpg",
+        "image_caption": "a bed with a blanket and a pillow",
+        "depth_sentence": "a bag is closer than a pillow",
+        "horizontal_sentence": "a bag is to the left of a bed",
+        "vertical_sentence": "a bag is above a pillow"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_00522.jpg",
+        "image_caption": "a desk with a chair and a computer in a room",
+        "depth_sentence": "a door is in front of a window cover",
+        "horizontal_sentence": "an ironing board is to the right of a printer",
+        "vertical_sentence": "a laptop is below a window"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_00523.jpg",
+        "image_caption": "a desk with a laptop and a computer on it",
+        "depth_sentence": "a modem is behind a cabinet",
+        "horizontal_sentence": "a garbage bin is to the right of a tissue box",
+        "vertical_sentence": "a tissue box is above a garbage bin"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_00524.jpg",
+        "image_caption": "a small bedroom with a bed and a desk",
+        "depth_sentence": "an electrical outlet is farther away than a charger and wire",
+        "horizontal_sentence": "a bed is to the left of a map",
+        "vertical_sentence": "an electrical outlet is above a chair"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_00530.jpg",
+        "image_caption": "a desk and chair in a room",
+        "depth_sentence": "a pillow is behind a telephone",
+        "horizontal_sentence": "a pillow is to the left of a chair",
+        "vertical_sentence": "a bed is below a telephone"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_00531.jpg",
+        "image_caption": "a messy bed with a blanket and pillows",
+        "depth_sentence": "a clothes is farther away than a wire",
+        "horizontal_sentence": "a wire is to the left of a quilt",
+        "vertical_sentence": "a wire is above a paper"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_00532.jpg",
+        "image_caption": "a desk with a computer and a chair in a room",
+        "depth_sentence": "a picture is nearer than a window",
+        "horizontal_sentence": "a desk is to the right of a window",
+        "vertical_sentence": "a paper is below a picture"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_00536.jpg",
+        "image_caption": "a bedroom with a bed and a lamp",
+        "depth_sentence": "a thermostat is nearer than a box",
+        "horizontal_sentence": "a bed is to the right of an electrical outlet",
+        "vertical_sentence": "a box is below a thermostat"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_00537.jpg",
+        "image_caption": "a bed with a blanket on it and a lamp",
+        "depth_sentence": "a telephone is closer than a cup",
+        "horizontal_sentence": "a lamp is to the right of a curtain",
+        "vertical_sentence": "an alarm clock is above a book"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_00538.jpg",
+        "image_caption": "a room with a bed and a closet",
+        "depth_sentence": "a window is behind a door",
+        "horizontal_sentence": "a basket is to the right of a bed",
+        "vertical_sentence": "a window is above a bed"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/dining_room/rgb_00550.jpg",
+        "image_caption": "a dining room table with six chairs",
+        "depth_sentence": "a pepper grinder is in front of a picture",
+        "horizontal_sentence": "a window is to the right of a napkin holder",
+        "vertical_sentence": "a napkin holder is below a picture"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/home_office/rgb_00554.jpg",
+        "image_caption": "a desk with a computer and a chair in front of a window",
+        "depth_sentence": "a box is behind a paper",
+        "horizontal_sentence": "a box is to the right of a modem",
+        "vertical_sentence": "an electrical outlet is above a desk"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00559.jpg",
+        "image_caption": "a kitchen with a microwave, coffee maker, and a toaster",
+        "depth_sentence": "a sponge is behind a toaster oven",
+        "horizontal_sentence": "a paper towel is to the left of a bin",
+        "vertical_sentence": "a pot is below a sponge"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00560.jpg",
+        "image_caption": "a kitchen counter with a sink and a window",
+        "depth_sentence": "a sink is more distant than a fork",
+        "horizontal_sentence": "a pan is to the right of a waffle maker",
+        "vertical_sentence": "a faucet is above a pan"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00561.jpg",
+        "image_caption": "a man standing in a kitchen",
+        "depth_sentence": "a baby gate is closer than a microwave",
+        "horizontal_sentence": "a baby gate is to the right of a curtain",
+        "vertical_sentence": "a towel is below a curtain"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00562.jpg",
+        "image_caption": "a kitchen with a stove and a refrigerator",
+        "depth_sentence": "a pitcher is in front of a refridgerator",
+        "horizontal_sentence": "a paper is to the right of a microwave",
+        "vertical_sentence": "a spoon sets is below a bag"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00563.jpg",
+        "image_caption": "a woman is standing in the kitchen with a cat",
+        "depth_sentence": "a sink is nearer than a tissue box",
+        "horizontal_sentence": "a books is to the right of a picture",
+        "vertical_sentence": "a sink is below a window"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00564.jpg",
+        "image_caption": "a table with chairs and a refrigerator in the background",
+        "depth_sentence": "a bag is in front of a flower basket",
+        "horizontal_sentence": "a table is to the right of a flower basket",
+        "vertical_sentence": "a floor mat is below a kiwi"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00565.jpg",
+        "image_caption": "a man in a kitchen",
+        "depth_sentence": "a dishwasher is nearer than an electrical outlet",
+        "horizontal_sentence": "a garbage bin is to the left of a napkin",
+        "vertical_sentence": "a sink is above a garbage bin"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00566.jpg",
+        "image_caption": "a man standing in a kitchen with a trash can",
+        "depth_sentence": "a blender is behind a stove",
+        "horizontal_sentence": "a jar is to the left of a bag",
+        "vertical_sentence": "an oven is below a blender"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00567.jpg",
+        "image_caption": "a man in a kitchen preparing food",
+        "depth_sentence": "a drying rack is nearer than a door",
+        "horizontal_sentence": "a tea kettle is to the left of a microwave",
+        "vertical_sentence": "a sink is below a range hood"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00568.jpg",
+        "image_caption": "a kitchen with a microwave, refrigerator, and stove",
+        "depth_sentence": "a coffee machine is in front of a towel",
+        "horizontal_sentence": "a fire extinguisher is to the left of a counter",
+        "vertical_sentence": "a banana is below a sponge"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00569.jpg",
+        "image_caption": "a kitchen with a microwave, refrigerator, and table",
+        "depth_sentence": "a fire extinguisher is in front of a coffee machine",
+        "horizontal_sentence": "a counter is to the left of an oven",
+        "vertical_sentence": "a basket is above a fire extinguisher"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00570.jpg",
+        "image_caption": "a kitchen with a refrigerator, stove, and microwave",
+        "depth_sentence": "a knobs is farther away than a fire extinguisher",
+        "horizontal_sentence": "a cabinet is to the left of a range hood",
+        "vertical_sentence": "a range hood is above a towel"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/living_room/rgb_00578.jpg",
+        "image_caption": "a living room with a couch, a tv, and a bookcase",
+        "depth_sentence": "a bag is more distant than a lamp",
+        "horizontal_sentence": "a coffee table is to the right of a cabinet",
+        "vertical_sentence": "a bag is below a wall decoration"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/living_room/rgb_00579.jpg",
+        "image_caption": "a living room with a couch and a lamp",
+        "depth_sentence": "a door is behind a plate",
+        "horizontal_sentence": "a computer is to the right of a bag",
+        "vertical_sentence": "a headphones is below a books"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/living_room/rgb_00580.jpg",
+        "image_caption": "a living room with a couch, a chair, a fireplace, a table and a lamp",
+        "depth_sentence": "a shovel is nearer than a lamp",
+        "horizontal_sentence": "a box is to the left of a floor mat",
+        "vertical_sentence": "a floor mat is below a fireplace"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/living_room/rgb_00581.jpg",
+        "image_caption": "a living room with a couch, a tv, and a book shelf",
+        "depth_sentence": "a book is behind a door way",
+        "horizontal_sentence": "a bowl is to the left of a table",
+        "vertical_sentence": "a bowl is below a cat bed"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/living_room/rgb_00582.jpg",
+        "image_caption": "a living room with a couch and a lamp",
+        "depth_sentence": "a belt is in front of a bookshelf",
+        "horizontal_sentence": "a belt is to the left of a lamp",
+        "vertical_sentence": "a table is below a cabinet"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/living_room/rgb_00590.jpg",
+        "image_caption": "a couch in a room",
+        "depth_sentence": "a books is closer than a bottle",
+        "horizontal_sentence": "a refridgerator is to the right of a paper",
+        "vertical_sentence": "a bottle is above a cabinet"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/living_room/rgb_00591.jpg",
+        "image_caption": "a living room with a couch, chair, tv, and table",
+        "depth_sentence": "a console controller is nearer than an air conditioner",
+        "horizontal_sentence": "a lamp is to the left of a console controller",
+        "vertical_sentence": "a console controller is below a lamp"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/living_room/rgb_00592.jpg",
+        "image_caption": "a brown couch in a living room",
+        "depth_sentence": "a door is behind a box",
+        "horizontal_sentence": "a console controller is to the left of an air conditioner",
+        "vertical_sentence": "a lamp is above a console controller"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/living_room/rgb_00593.jpg",
+        "image_caption": "a brown couch in a room",
+        "depth_sentence": "a curtain is closer than a door knob",
+        "horizontal_sentence": "an air conditioner is to the right of a bookshelf",
+        "vertical_sentence": "a bookshelf is above an air conditioner"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/living_room/rgb_00602.jpg",
+        "image_caption": "a bike is mounted on a wall in a room",
+        "depth_sentence": "a garbage bin is closer than a lamp",
+        "horizontal_sentence": "a table is to the right of a garbage bin",
+        "vertical_sentence": "a chair is below a window"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/living_room/rgb_00603.jpg",
+        "image_caption": "a room with a desk and a couch",
+        "depth_sentence": "a paper is nearer than a lamp",
+        "horizontal_sentence": "a table is to the right of a lamp",
+        "vertical_sentence": "a lamp is above a computer disk"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/living_room/rgb_00604.jpg",
+        "image_caption": "a desk with two computer monitors and a laptop",
+        "depth_sentence": "a paper towel is behind a basket",
+        "horizontal_sentence": "a basket is to the left of a bottle",
+        "vertical_sentence": "a paper towel is above a plant"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/living_room/rgb_00605.jpg",
+        "image_caption": "a couch and a table in a room",
+        "depth_sentence": "a clothes is in front of a fan",
+        "horizontal_sentence": "a pillow is to the right of a fan",
+        "vertical_sentence": "a clothes is below a fan"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/living_room/rgb_00606.jpg",
+        "image_caption": "a couch in a room",
+        "depth_sentence": "a bookshelf is nearer than a bottle",
+        "horizontal_sentence": "a cup is to the right of a shelves",
+        "vertical_sentence": "a bookshelf is below a bottle"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/office/rgb_00611.jpg",
+        "image_caption": "a small office with a desk, computer and cabinets",
+        "depth_sentence": "a counter is farther away than a cup",
+        "horizontal_sentence": "a refridgerator is to the right of a coaster",
+        "vertical_sentence": "a garbage bin is below a mouse"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/office/rgb_00612.jpg",
+        "image_caption": "office furniture for sale in san antonio tx",
+        "depth_sentence": "a coaster is closer than a mouse",
+        "horizontal_sentence": "a keyboard is to the left of a garbage bin",
+        "vertical_sentence": "a clock is above a cabinet"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/office/rgb_00616.jpg",
+        "image_caption": "a desk with a computer and a chair in an office",
+        "depth_sentence": "a cabinet is more distant than a cork board",
+        "horizontal_sentence": "a printer is to the left of a garbage bin",
+        "vertical_sentence": "a cork board is above a garbage bin"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/office/rgb_00617.jpg",
+        "image_caption": "a couch in a room with boxes and papers on the floor",
+        "depth_sentence": "a desk is closer than a door",
+        "horizontal_sentence": "a door is to the right of a window",
+        "vertical_sentence": "a pen is below a folder"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/office/rgb_00619.jpg",
+        "image_caption": "a desk with a computer and a chair in front of a window",
+        "depth_sentence": "a desk is in front of a mail tray",
+        "horizontal_sentence": "a mail tray is to the right of a file pad",
+        "vertical_sentence": "a file pad is below a window"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/office/rgb_00620.jpg",
+        "image_caption": "a desk with a computer, a chair, and a cork board",
+        "depth_sentence": "a cabinet is farther away than a pen",
+        "horizontal_sentence": "a keyboard is to the left of a cabinet",
+        "vertical_sentence": "a pen is below a monitor"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/office/rgb_00632.jpg",
+        "image_caption": "a man sitting in an office cubicle with a teddy bear",
+        "depth_sentence": "a stuffed animal is nearer than a column",
+        "horizontal_sentence": "a box is to the right of a person",
+        "vertical_sentence": "a chair is below a laptop"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/office/rgb_00633.jpg",
+        "image_caption": "a man and a woman sitting in an office cubicle",
+        "depth_sentence": "a mirror is nearer than a shelves",
+        "horizontal_sentence": "a stuffed animal is to the right of a laptop",
+        "vertical_sentence": "a bottle is above a bag"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/office/rgb_00634.jpg",
+        "image_caption": "a man and woman in an office cubicle",
+        "depth_sentence": "a chair is in front of a shelves",
+        "horizontal_sentence": "a bottle is to the right of a picture",
+        "vertical_sentence": "a column is above a mouse"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/office/rgb_00635.jpg",
+        "image_caption": "a man standing in front of a whiteboard",
+        "depth_sentence": "a door knob is farther away than a chair",
+        "horizontal_sentence": "a person is to the right of an electrical outlet",
+        "vertical_sentence": "an electrical outlet is below a door knob"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/office/rgb_00636.jpg",
+        "image_caption": "a messy office cubicle with a chair and desk",
+        "depth_sentence": "a mouse is nearer than a shelves",
+        "horizontal_sentence": "a bottle is to the left of a chair",
+        "vertical_sentence": "a bottle is above a monitor"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/study/rgb_00644.jpg",
+        "image_caption": "a table in a room with a chair and bookshelves",
+        "depth_sentence": "a cabinet is in front of a window",
+        "horizontal_sentence": "a box is to the right of a pencil",
+        "vertical_sentence": "a pencil is below a box"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bathroom/rgb_00649.jpg",
+        "image_caption": "a bathroom with a toilet, sink and shower curtain",
+        "depth_sentence": "a bathtub is behind a squeeze tube",
+        "horizontal_sentence": "a door knob is to the right of a squeeze tube",
+        "vertical_sentence": "a shelves is above a door knob"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bathroom/rgb_00650.jpg",
+        "image_caption": "a bathroom with a sink, toilet and shower curtain",
+        "depth_sentence": "a toilet is in front of a faucet",
+        "horizontal_sentence": "a bathtub is to the left of a bottle",
+        "vertical_sentence": "a squeeze tube is above a toilet"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bathroom/rgb_00655.jpg",
+        "image_caption": "a bathroom with a sink and a shower curtain",
+        "depth_sentence": "a faucet is closer than a shelves",
+        "horizontal_sentence": "a faucet is to the right of a box",
+        "vertical_sentence": "a shelves is above a toilet"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bathroom/rgb_00656.jpg",
+        "image_caption": "a bathroom with a sink, toilet and shower curtain",
+        "depth_sentence": "a picture is behind a sink",
+        "horizontal_sentence": "an electrical outlet is to the left of a shower curtain",
+        "vertical_sentence": "a picture is above a cup"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bathroom/rgb_00657.jpg",
+        "image_caption": "a bathroom with a white shelf and a shower",
+        "depth_sentence": "a flower is behind a book",
+        "horizontal_sentence": "a squeeze tube is to the right of a flower",
+        "vertical_sentence": "a book is below a sculpture"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bathroom/rgb_00662.jpg",
+        "image_caption": "a bathroom sink with a mirror above it",
+        "depth_sentence": "a mirror is more distant than a soap holder",
+        "horizontal_sentence": "an electrical outlet is to the left of a toothbrush holder",
+        "vertical_sentence": "a floor mat is below a soap holder"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bathroom/rgb_00663.jpg",
+        "image_caption": "a bathroom with a sink and a mirror",
+        "depth_sentence": "a mirror is farther away than a toothpaste",
+        "horizontal_sentence": "a sink is to the right of a wall decoration",
+        "vertical_sentence": "a sink is below a toothbrush"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bathroom/rgb_00667.jpg",
+        "image_caption": "a bathroom with a large mirror and a tub",
+        "depth_sentence": "a faucet is closer than a tissue box",
+        "horizontal_sentence": "a cabinet is to the right of a bathtub",
+        "vertical_sentence": "a door is below a lamp"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bathroom/rgb_00669.jpg",
+        "image_caption": "a bathroom with a sink and counter top",
+        "depth_sentence": "a soap is behind a sink",
+        "horizontal_sentence": "a bottle is to the left of a bowl",
+        "vertical_sentence": "a faucet handle is below a bowl"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bathroom/rgb_00670.jpg",
+        "image_caption": "a bathroom with two sinks and a mirror",
+        "depth_sentence": "a counter is closer than a door  window  reflection",
+        "horizontal_sentence": "a bathtub is to the left of a deoderant",
+        "vertical_sentence": "a deoderant is below a door  window  reflection"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bathroom/rgb_00671.jpg",
+        "image_caption": "a bathroom with a sink, tub and mirror",
+        "depth_sentence": "a towel is farther away than a floor mat",
+        "horizontal_sentence": "a garbage bin is to the right of a towel",
+        "vertical_sentence": "a tissue box is below a towel"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bathroom/rgb_00672.jpg",
+        "image_caption": "a bathroom with a tub and a sink",
+        "depth_sentence": "a toothpaste is nearer than a faucet",
+        "horizontal_sentence": "a shelves is to the left of a toothpaste",
+        "vertical_sentence": "a faucet is below a box"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bathroom/rgb_00675.jpg",
+        "image_caption": "a bathroom with a toilet, sink, and towel rack",
+        "depth_sentence": "a door is closer than a book",
+        "horizontal_sentence": "a toilet is to the right of a door",
+        "vertical_sentence": "a floor mat is below a picture"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bathroom/rgb_00676.jpg",
+        "image_caption": "a bathroom with a toilet, sink and towel rack",
+        "depth_sentence": "a faucet is farther away than a jar",
+        "horizontal_sentence": "a tissue box is to the right of a floor mat",
+        "vertical_sentence": "a jar is above a toilet"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bathroom/rgb_00677.jpg",
+        "image_caption": "a bathroom with a toilet and a shower",
+        "depth_sentence": "a magazine holder is more distant than a shelves",
+        "horizontal_sentence": "a shelves is to the left of a toilet",
+        "vertical_sentence": "a shelves is below a window"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bathroom/rgb_00678.jpg",
+        "image_caption": "a bathroom sink with a mirror and towels on the counter",
+        "depth_sentence": "a storage space is nearer than a tissue box",
+        "horizontal_sentence": "a sink is to the left of a door",
+        "vertical_sentence": "a faucet is above a storage space"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bathroom/rgb_00679.jpg",
+        "image_caption": "a bathroom with a toilet and a sink",
+        "depth_sentence": "a garbage bin is farther away than a towel",
+        "horizontal_sentence": "a bottle is to the left of a garbage bin",
+        "vertical_sentence": "a pipe is above a garbage bin"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bathroom/rgb_00680.jpg",
+        "image_caption": "a bathroom with a shower and a sink",
+        "depth_sentence": "a faucet handle is farther away than a sink",
+        "horizontal_sentence": "a faucet handle is to the right of a towel",
+        "vertical_sentence": "a vase is below a faucet handle"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bathroom/rgb_00685.jpg",
+        "image_caption": "a bathroom with a shower and a tub",
+        "depth_sentence": "a door is farther away than a faucet handle",
+        "horizontal_sentence": "a shower head is to the left of a personal care liquid",
+        "vertical_sentence": "a window is above a floor mat"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bathroom/rgb_00686.jpg",
+        "image_caption": "a bathroom with a shower and a sink",
+        "depth_sentence": "a light is farther away than a door",
+        "horizontal_sentence": "a floor mat is to the right of a window",
+        "vertical_sentence": "a light is above a stool"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bathroom/rgb_00687.jpg",
+        "image_caption": "a bathroom with a sink, toilet and mirror",
+        "depth_sentence": "a faucet is in front of a toilet brush",
+        "horizontal_sentence": "a books is to the right of a cabinet",
+        "vertical_sentence": "a toothbrush is above a sink"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bathroom/rgb_00688.jpg",
+        "image_caption": "a white toilet sitting next to a bathtub",
+        "depth_sentence": "a books is farther away than a door",
+        "horizontal_sentence": "a door is to the right of a toilet paper",
+        "vertical_sentence": "a books is above a toilet paper"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bathroom/rgb_00689.jpg",
+        "image_caption": "a bathroom with a shower and a door",
+        "depth_sentence": "a towel is in front of a bathtub",
+        "horizontal_sentence": "a bathtub is to the right of a towel",
+        "vertical_sentence": "a bathtub is below a door way"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bathroom/rgb_00692.jpg",
+        "image_caption": "a bathroom with a toilet, sink, and shower",
+        "depth_sentence": "a toilet is behind a chair",
+        "horizontal_sentence": "a shower curtain is to the left of a faucet",
+        "vertical_sentence": "a sculpture is above a toilet"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bathroom/rgb_00693.jpg",
+        "image_caption": "a bathroom with a toilet, sink, and towel rack",
+        "depth_sentence": "a counter is closer than a shower curtain",
+        "horizontal_sentence": "a blinds is to the left of a towel rod",
+        "vertical_sentence": "a shower curtain is below a towel rod"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bathroom/rgb_00696.jpg",
+        "image_caption": "a bathroom sink with a mirror and a towel rack",
+        "depth_sentence": "a towel is nearer than a light switchreflection",
+        "horizontal_sentence": "a toothpaste is to the left of a sink",
+        "vertical_sentence": "a sink is below a light switchreflection"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bathroom/rgb_00697.jpg",
+        "image_caption": "a bathroom with a tub and a sink",
+        "depth_sentence": "a paper is farther away than a clothes",
+        "horizontal_sentence": "a soap dish is to the left of a wallet",
+        "vertical_sentence": "a window is above a wallet"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bathroom/rgb_00698.jpg",
+        "image_caption": "a bathroom with a sink, a tub and a mirror",
+        "depth_sentence": "a window is farther away than a bathtub",
+        "horizontal_sentence": "a garbage bin is to the right of a lamp",
+        "vertical_sentence": "a lamp is above a bathtub"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bathroom/rgb_00705.jpg",
+        "image_caption": "a bathroom with a toilet, sink, and a window",
+        "depth_sentence": "a bag is closer than a bathtub",
+        "horizontal_sentence": "a bag is to the left of a counter",
+        "vertical_sentence": "a curtain rod is above a toilet"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bathroom/rgb_00706.jpg",
+        "image_caption": "a bathroom with a toilet and a bathtub",
+        "depth_sentence": "a clothes is behind a picture",
+        "horizontal_sentence": "a clothes is to the right of a toilet",
+        "vertical_sentence": "a bathtub is below a picture"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bathroom/rgb_00707.jpg",
+        "image_caption": "a bathroom with a sink and a mirror",
+        "depth_sentence": "a scale is behind a tissue box",
+        "horizontal_sentence": "a window is to the left of a tissue",
+        "vertical_sentence": "a window is above a faucet"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bathroom/rgb_00708.jpg",
+        "image_caption": "a bathroom with a toilet, sink and shower",
+        "depth_sentence": "a toilet is behind a bag",
+        "horizontal_sentence": "a step stool is to the right of a faucet",
+        "vertical_sentence": "a bottle is above a faucet"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bathroom/rgb_00709.jpg",
+        "image_caption": "a bathroom sink with a mirror and a lot of stuff on it",
+        "depth_sentence": "a faucet is more distant than a flashlight",
+        "horizontal_sentence": "a squeeze tube is to the left of a face wash cream",
+        "vertical_sentence": "a toilet is below a squeeze tube"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bathroom/rgb_00711.jpg",
+        "image_caption": "a bathroom with a sink, shower and toilet",
+        "depth_sentence": "a wire is nearer than a clock",
+        "horizontal_sentence": "a window shelf is to the right of a wire",
+        "vertical_sentence": "a window is above a shower base"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bathroom/rgb_00716.jpg",
+        "image_caption": "a bathroom sink with a towel on it",
+        "depth_sentence": "a faucet is closer than a box",
+        "horizontal_sentence": "a soap box is to the left of a box",
+        "vertical_sentence": "a box is above a sink"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bathroom/rgb_00717.jpg",
+        "image_caption": "a bathroom with a toilet, shower, and a sink",
+        "depth_sentence": "a soap holder is behind a towel rod",
+        "horizontal_sentence": "a bag is to the right of a towel rod",
+        "vertical_sentence": "a bag is above a toilet"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bathroom/rgb_00723.jpg",
+        "image_caption": "a bathroom with a sink, toilet and a cabinet",
+        "depth_sentence": "a box is farther away than a door",
+        "horizontal_sentence": "a box is to the left of a toothbrush",
+        "vertical_sentence": "a toilet is below a toothbrush"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bathroom/rgb_00724.jpg",
+        "image_caption": "a bathroom with a sink and a mirror",
+        "depth_sentence": "a garbage bin is behind a sink",
+        "horizontal_sentence": "a garbage bin is to the left of a faucet",
+        "vertical_sentence": "a window is above a book"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bathroom/rgb_00725.jpg",
+        "image_caption": "a bathroom with a toilet, a shower, and a bathtub",
+        "depth_sentence": "a faucet handle is more distant than a toilet paper",
+        "horizontal_sentence": "a faucet is to the right of a pipe",
+        "vertical_sentence": "a faucet is below a faucet handle"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bathroom/rgb_00726.jpg",
+        "image_caption": "a man taking a picture of himself in a bathroom",
+        "depth_sentence": "a soap dish is in front of a tissue box",
+        "horizontal_sentence": "a soap dish is to the left of a sink",
+        "vertical_sentence": "a bottle is above a toilet paper"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bathroom/rgb_00727.jpg",
+        "image_caption": "a bathroom with a toilet and a shower",
+        "depth_sentence": "a tissue box is more distant than a cabinet",
+        "horizontal_sentence": "a floor mat is to the right of a counter",
+        "vertical_sentence": "a towel is above a floor mat"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bathroom/rgb_00730.jpg",
+        "image_caption": "a bathroom with a sink, mirror, and toilet",
+        "depth_sentence": "a toilet is more distant than a cabinet",
+        "horizontal_sentence": "a faucet is to the left of a tissue box",
+        "vertical_sentence": "a picture is above a decorative plate"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bathroom/rgb_00731.jpg",
+        "image_caption": "a bathroom with a toilet and a basket next to it",
+        "depth_sentence": "a picture is nearer than a toilet paper holder",
+        "horizontal_sentence": "a window is to the right of a tissue box",
+        "vertical_sentence": "a toilet paper holder is below a picture"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bathroom/rgb_00732.jpg",
+        "image_caption": "a bathroom with a toilet and a shower",
+        "depth_sentence": "a tissue box is more distant than a sink",
+        "horizontal_sentence": "a tissue box is to the right of a roll of toilet paper",
+        "vertical_sentence": "a sink is below a window"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bathroom/rgb_00733.jpg",
+        "image_caption": "a bathroom sink with a mirror and a towel rack",
+        "depth_sentence": "an electrical outlet is nearer than a book",
+        "horizontal_sentence": "a book is to the right of a bottle",
+        "vertical_sentence": "a towel rod is above a sink"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bathroom/rgb_00742.jpg",
+        "image_caption": "a bathroom with a sink, toilet and shower curtain",
+        "depth_sentence": "a toilet is more distant than a sink",
+        "horizontal_sentence": "a cabinet is to the right of a light",
+        "vertical_sentence": "a counter is below a light"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bathroom/rgb_00743.jpg",
+        "image_caption": "a bathroom with a toilet, a shower, and a sink",
+        "depth_sentence": "a bathtub is farther away than a basket",
+        "horizontal_sentence": "a cabinet is to the left of a bathtub",
+        "vertical_sentence": "a blinds is above a cabinet"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00759.jpg",
+        "image_caption": "a kitchen with a table and chairs in it",
+        "depth_sentence": "a stove is in front of a bottle",
+        "horizontal_sentence": "a knife rack is to the left of a can",
+        "vertical_sentence": "a bottle is above a can"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00760.jpg",
+        "image_caption": "a kitchen table with four chairs around it",
+        "depth_sentence": "a sink is nearer than a door",
+        "horizontal_sentence": "a door is to the left of a sink",
+        "vertical_sentence": "a sink is below a door"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00761.jpg",
+        "image_caption": "a kitchen with a sink, a dishwasher, and a window",
+        "depth_sentence": "a knife rack is more distant than a garbage bin",
+        "horizontal_sentence": "a garbage bin is to the left of a bottle",
+        "vertical_sentence": "a monitor is above a garbage bin"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00762.jpg",
+        "image_caption": "a kitchen with a refrigerator and a microwave",
+        "depth_sentence": "a paper towel is farther away than a sculpture",
+        "horizontal_sentence": "a bagel is to the right of a sculpture",
+        "vertical_sentence": "a bagel is below a microwave"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00763.jpg",
+        "image_caption": "a kitchen with a stove and a sink",
+        "depth_sentence": "a box is nearer than a fan",
+        "horizontal_sentence": "a paper towel is to the left of a fan",
+        "vertical_sentence": "a bag of bagels is below a window"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00765.jpg",
+        "image_caption": "a kitchen with a sink, a dishwasher, and a window",
+        "depth_sentence": "a monitor is behind a towel",
+        "horizontal_sentence": "a monitor is to the left of a column",
+        "vertical_sentence": "a column is above a bottle"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00766.jpg",
+        "image_caption": "a kitchen table and chairs in a room",
+        "depth_sentence": "a faucet is more distant than a shelves",
+        "horizontal_sentence": "a towel is to the right of a table",
+        "vertical_sentence": "a napkin is below a sink"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00767.jpg",
+        "image_caption": "a kitchen with a table and chairs in it",
+        "depth_sentence": "a refridgerator is nearer than a range hood",
+        "horizontal_sentence": "a microwave is to the left of a banana peel",
+        "vertical_sentence": "a light is above a bowl"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00768.jpg",
+        "image_caption": "a kitchen with a bowl of fruit on the counter",
+        "depth_sentence": "a blender is behind a bag of oreo",
+        "horizontal_sentence": "a stove is to the left of a bag",
+        "vertical_sentence": "a range hood is above a microwave"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00769.jpg",
+        "image_caption": "a kitchen with a stove, oven, and a sink",
+        "depth_sentence": "a vessel is nearer than a window",
+        "horizontal_sentence": "a window is to the left of a stove",
+        "vertical_sentence": "a sink is below a range hood"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00770.jpg",
+        "image_caption": "a kitchen with a sink and a window",
+        "depth_sentence": "a blender is in front of an electrical outlet",
+        "horizontal_sentence": "a drying rack is to the right of a dishwasher",
+        "vertical_sentence": "a dishwasher is below a faucet"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00771.jpg",
+        "image_caption": "a table with a table cloth and chairs",
+        "depth_sentence": "a television is behind a box",
+        "horizontal_sentence": "a brick is to the right of a table",
+        "vertical_sentence": "a torch is above a box"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00772.jpg",
+        "image_caption": "a kitchen with a table and chairs in it",
+        "depth_sentence": "a microwave is more distant than a table",
+        "horizontal_sentence": "a dishwasher is to the right of a kitchen island",
+        "vertical_sentence": "a table is below a refridgerator"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00773.jpg",
+        "image_caption": "a kitchen with a sink and a refrigerator",
+        "depth_sentence": "a cell phone is behind a plate",
+        "horizontal_sentence": "a plate is to the right of a sink",
+        "vertical_sentence": "a faucet is below a microwave"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00774.jpg",
+        "image_caption": "a kitchen with a refrigerator, stove and sink",
+        "depth_sentence": "a garbage bin is closer than a sink",
+        "horizontal_sentence": "a paper is to the left of a dishwasher",
+        "vertical_sentence": "a paper towel is above a garbage bin"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00775.jpg",
+        "image_caption": "a kitchen with a stove and oven",
+        "depth_sentence": "a box is behind a range hood",
+        "horizontal_sentence": "a stove is to the left of a bottle",
+        "vertical_sentence": "a box is above a sink"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00776.jpg",
+        "image_caption": "a kitchen with a sink, oven and cabinets",
+        "depth_sentence": "a plate is farther away than a bag",
+        "horizontal_sentence": "a bag is to the right of a faucet",
+        "vertical_sentence": "a bag is above a dishwasher"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00777.jpg",
+        "image_caption": "a kitchen with a stove and oven in it",
+        "depth_sentence": "a light is farther away than a counter",
+        "horizontal_sentence": "a drawer is to the left of a dishwasher",
+        "vertical_sentence": "a light is above a counter"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00778.jpg",
+        "image_caption": "a black refrigerator in a kitchen with white cabinets",
+        "depth_sentence": "a fruit is nearer than a door",
+        "horizontal_sentence": "a tea pot is to the left of a knife rack",
+        "vertical_sentence": "a knife is above a vessel"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00779.jpg",
+        "image_caption": "a kitchen with a refrigerator, stove, and sink",
+        "depth_sentence": "a tray is more distant than a pitcher",
+        "horizontal_sentence": "a faucet is to the left of a toaster oven",
+        "vertical_sentence": "a paper is below a tea kettle"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00780.jpg",
+        "image_caption": "a kitchen table and chairs in a tiled floor",
+        "depth_sentence": "a jug is behind a cup",
+        "horizontal_sentence": "a napkin is to the right of a book",
+        "vertical_sentence": "a clothes is below a speaker"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00781.jpg",
+        "image_caption": "a kitchen with a table and chairs and a computer desk",
+        "depth_sentence": "a thermostat is farther away than a table",
+        "horizontal_sentence": "a paper is to the right of a table",
+        "vertical_sentence": "a wooden plank is below a speaker"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00782.jpg",
+        "image_caption": "a kitchen with a counter and a bag on it",
+        "depth_sentence": "an eggs is closer than a table",
+        "horizontal_sentence": "a key is to the left of an eggs",
+        "vertical_sentence": "a bottle is above a key"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00783.jpg",
+        "image_caption": "a dog standing in the kitchen of a house",
+        "depth_sentence": "a dishwasher is behind a stove",
+        "horizontal_sentence": "a floor mat is to the right of a crock pot",
+        "vertical_sentence": "a fruit is above a frying pan"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00784.jpg",
+        "image_caption": "a kitchen with a stove and a microwave",
+        "depth_sentence": "a microwave is farther away than a box",
+        "horizontal_sentence": "a chimney is to the right of a drying rack",
+        "vertical_sentence": "a door is above a stove"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00785.jpg",
+        "image_caption": "a kitchen with a stove, microwave, and a refrigerator",
+        "depth_sentence": "a cup is in front of a chandelier",
+        "horizontal_sentence": "a dog cage is to the right of a stool",
+        "vertical_sentence": "a chandelier is above a plant"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00786.jpg",
+        "image_caption": "a kitchen with a stove, refrigerator, and microwave",
+        "depth_sentence": "a bag is closer than a bookshelf",
+        "horizontal_sentence": "a wire is to the right of a picture",
+        "vertical_sentence": "a wire is below a range hood"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00799.jpg",
+        "image_caption": "a kitchen counter with a coffee maker, a microwave and a blender",
+        "depth_sentence": "a jar is closer than a machine",
+        "horizontal_sentence": "a machine is to the left of a window",
+        "vertical_sentence": "an urn is above a jar"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00800.jpg",
+        "image_caption": "a dining room table and chairs in a room",
+        "depth_sentence": "a shelves is more distant than a table",
+        "horizontal_sentence": "a paper is to the left of a fan",
+        "vertical_sentence": "a fan is above a table"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00801.jpg",
+        "image_caption": "a kitchen with a large island and a lot of food",
+        "depth_sentence": "a fan is behind a coffee machine",
+        "horizontal_sentence": "a fan is to the left of a stove",
+        "vertical_sentence": "a fan is above a tea kettle"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00802.jpg",
+        "image_caption": "a kitchen with a sink, stove and cabinets",
+        "depth_sentence": "a clothes is closer than a crock pot",
+        "horizontal_sentence": "a crock pot is to the right of a plate",
+        "vertical_sentence": "an electrical outlet is above a dishwasher"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00803.jpg",
+        "image_caption": "a kitchen counter with bags of groceries on it",
+        "depth_sentence": "a stove is closer than an electrical outlet",
+        "horizontal_sentence": "a faucet is to the left of a refridgerator",
+        "vertical_sentence": "a drying rack is above a stove"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00809.jpg",
+        "image_caption": "a kitchen with a table and chairs in it",
+        "depth_sentence": "a flower is farther away than a table",
+        "horizontal_sentence": "a refridgerator is to the right of a napkin",
+        "vertical_sentence": "an air vent is above a flower"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00810.jpg",
+        "image_caption": "a woman standing in a kitchen with a table and chairs",
+        "depth_sentence": "a vegetables is closer than a stove",
+        "horizontal_sentence": "a vegetables is to the left of a fan",
+        "vertical_sentence": "a stove is below a fan"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00811.jpg",
+        "image_caption": "a kitchen with a refrigerator and a sink",
+        "depth_sentence": "a window is more distant than a sculpture",
+        "horizontal_sentence": "a window is to the right of a paper towel",
+        "vertical_sentence": "a paper towel is below a picture"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00812.jpg",
+        "image_caption": "a kitchen with a refrigerator, stove, sink, and counter",
+        "depth_sentence": "a faucet is nearer than an ornamental item",
+        "horizontal_sentence": "a picture is to the right of a cup",
+        "vertical_sentence": "a toaster oven is above a paper"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00813.jpg",
+        "image_caption": "a kitchen with a stove, oven, sink, and refrigerator",
+        "depth_sentence": "a bottle is more distant than a dishwasher",
+        "horizontal_sentence": "a glass dish is to the left of a shelves",
+        "vertical_sentence": "a microwave is above a spoon stand"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00820.jpg",
+        "image_caption": "a kitchen with a stove and a microwave",
+        "depth_sentence": "a book is more distant than a tray",
+        "horizontal_sentence": "a faucet is to the left of a book",
+        "vertical_sentence": "a step stool is below a bowl"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00821.jpg",
+        "image_caption": "a dining room table and chairs",
+        "depth_sentence": "a sifter is farther away than a machine",
+        "horizontal_sentence": "a counter is to the right of a box",
+        "vertical_sentence": "a cabinet is above a chapstick"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00822.jpg",
+        "image_caption": "a kitchen with a table and chairs in it",
+        "depth_sentence": "a can is nearer than a light switch",
+        "horizontal_sentence": "a counter is to the right of a shelves",
+        "vertical_sentence": "a wire is below a mouse"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00832.jpg",
+        "image_caption": "a kitchen with a sink and a counter top",
+        "depth_sentence": "a bottle is closer than a computer",
+        "horizontal_sentence": "a window is to the right of a bowl",
+        "vertical_sentence": "a bottle is above a step stool"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00833.jpg",
+        "image_caption": "a woman is standing in a kitchen with a refrigerator",
+        "depth_sentence": "a blinds is nearer than a tea kettle",
+        "horizontal_sentence": "a picture is to the left of a sink",
+        "vertical_sentence": "a dishwasher is below a picture"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00834.jpg",
+        "image_caption": "a kitchen with a counter and a sink",
+        "depth_sentence": "a pan is nearer than a laptop",
+        "horizontal_sentence": "a tea kettle is to the right of a chair",
+        "vertical_sentence": "a coffee machine is above a stool"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00835.jpg",
+        "image_caption": "a kitchen with a table and chairs in it",
+        "depth_sentence": "a wine accessory is farther away than a tissue box",
+        "horizontal_sentence": "a paper is to the left of a light",
+        "vertical_sentence": "a tissue box is below a jar"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00836.jpg",
+        "image_caption": "a kitchen with a counter top and a sink",
+        "depth_sentence": "a table is behind a paper towel",
+        "horizontal_sentence": "a paper towel is to the right of a kitchen island",
+        "vertical_sentence": "a counter is below a stove"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00837.jpg",
+        "image_caption": "a kitchen with a sink, a microwave, a toaster and a bag of groceries",
+        "depth_sentence": "a machine is farther away than a faucet handle",
+        "horizontal_sentence": "a machine is to the right of a paper towel",
+        "vertical_sentence": "a machine is above a sink"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00838.jpg",
+        "image_caption": "a kitchen with a sink and counter top",
+        "depth_sentence": "a plate is nearer than a purse",
+        "horizontal_sentence": "a coffee machine is to the right of a collander",
+        "vertical_sentence": "a collander is below a flower pot"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00839.jpg",
+        "image_caption": "a kitchen sink with a coffee maker and a mug",
+        "depth_sentence": "a towel is in front of a decorative plate",
+        "horizontal_sentence": "a decorative plate is to the right of a plate",
+        "vertical_sentence": "a decorative plate is above a coffee machine"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00840.jpg",
+        "image_caption": "a kitchen counter with a blender, coffee maker, and bananas",
+        "depth_sentence": "a table is more distant than a books",
+        "horizontal_sentence": "a book is to the left of a flower pot",
+        "vertical_sentence": "a jar is above a book"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00841.jpg",
+        "image_caption": "a dining room table and chairs in a house",
+        "depth_sentence": "a salt and pepper is closer than a window",
+        "horizontal_sentence": "a dog toy is to the right of a window",
+        "vertical_sentence": "a cabinet is below a decorative platter"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00842.jpg",
+        "image_caption": "a kitchen with a refrigerator and a table",
+        "depth_sentence": "an electrical outlet is farther away than a crock pot",
+        "horizontal_sentence": "a crock pot is to the right of a refridgerator",
+        "vertical_sentence": "a bag is below a cork board"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00843.jpg",
+        "image_caption": "a kitchen with a refrigerator, stove, and microwave",
+        "depth_sentence": "a paper is nearer than a blinds",
+        "horizontal_sentence": "a paper is to the left of a blinds",
+        "vertical_sentence": "a blender is above a paper"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00844.jpg",
+        "image_caption": "a kitchen with a microwave oven and a stove",
+        "depth_sentence": "a bowl is nearer than a bag",
+        "horizontal_sentence": "a sponge is to the right of a chair",
+        "vertical_sentence": "a cup is below a window"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00845.jpg",
+        "image_caption": "a kitchen counter with a pot and a microwave",
+        "depth_sentence": "a serving spoon is closer than a paper towel",
+        "horizontal_sentence": "a serving spoon is to the right of a towel",
+        "vertical_sentence": "a coffee machine is above a serving spoon"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00849.jpg",
+        "image_caption": "a man walking in a kitchen",
+        "depth_sentence": "a cup is in front of an urn",
+        "horizontal_sentence": "a faucet is to the right of a paper",
+        "vertical_sentence": "a picture is above a cup"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00850.jpg",
+        "image_caption": "a kitchen with a counter top and a bag",
+        "depth_sentence": "a faucet is more distant than a purse",
+        "horizontal_sentence": "a microwave is to the left of a faucet",
+        "vertical_sentence": "a cup is below a microwave"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00851.jpg",
+        "image_caption": "a kitchen island with fruit on it",
+        "depth_sentence": "a box is closer than a sink",
+        "horizontal_sentence": "a sink is to the left of a pineapple",
+        "vertical_sentence": "a bottle is above a box"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00856.jpg",
+        "image_caption": "a kitchen counter with a pie and a bowl of fruit",
+        "depth_sentence": "a window is behind a bread",
+        "horizontal_sentence": "a bottle is to the right of a garbage bin",
+        "vertical_sentence": "a window is above a tray"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00857.jpg",
+        "image_caption": "a kitchen with a sink and counter top",
+        "depth_sentence": "a telephone is more distant than a sink",
+        "horizontal_sentence": "a telephone is to the right of a jar",
+        "vertical_sentence": "a jar is above a towel rod"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00858.jpg",
+        "image_caption": "a kitchen counter with a sink, a microwave, and a coffee pot",
+        "depth_sentence": "a coffee machine is more distant than a plant pot",
+        "horizontal_sentence": "a mug holder is to the right of a juicer",
+        "vertical_sentence": "a sponge is below a mug holder"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00859.jpg",
+        "image_caption": "a kitchen with a sink, counter, and cabinets",
+        "depth_sentence": "a faucet is behind a clothes",
+        "horizontal_sentence": "a clothes is to the left of a cell phone",
+        "vertical_sentence": "a clothes is below a cutting board"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00860.jpg",
+        "image_caption": "a kitchen counter with a sink and a refrigerator",
+        "depth_sentence": "a tea pot is more distant than a window",
+        "horizontal_sentence": "a window is to the left of a curtain",
+        "vertical_sentence": "a dishwasher is below a curtain"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00861.jpg",
+        "image_caption": "a kitchen with a microwave, a coffee maker, and a refrigerator",
+        "depth_sentence": "a blender is closer than a light switch",
+        "horizontal_sentence": "a coffee machine is to the left of an oven",
+        "vertical_sentence": "a coffee machine is above a dishwasher"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00868.jpg",
+        "image_caption": "a dining room table with chairs and a fan",
+        "depth_sentence": "a telephone is farther away than a light",
+        "horizontal_sentence": "a window is to the right of a plant pot",
+        "vertical_sentence": "an electrical outlet is below a window"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00869.jpg",
+        "image_caption": "a kitchen with white cabinets and tile flooring",
+        "depth_sentence": "a machine is nearer than a decorative dish",
+        "horizontal_sentence": "a range hood is to the left of a tissue box",
+        "vertical_sentence": "a box is below a coffee machine"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00870.jpg",
+        "image_caption": "a kitchen with a refrigerator and microwave",
+        "depth_sentence": "a counter is in front of a door",
+        "horizontal_sentence": "a counter is to the left of a door",
+        "vertical_sentence": "a bowl is above a magnet"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00905.jpg",
+        "image_caption": "a kitchen with a sink, stove, refrigerator and cabinets",
+        "depth_sentence": "a bookshelf is farther away than a faucet",
+        "horizontal_sentence": "a fan is to the right of a bottle",
+        "vertical_sentence": "a garbage bag is below a books"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00906.jpg",
+        "image_caption": "a kitchen with a stove and oven",
+        "depth_sentence": "a sponge is farther away than a trivet",
+        "horizontal_sentence": "a faucet handle is to the left of a sponge",
+        "vertical_sentence": "a pot is below a sponge"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/kitchen/rgb_00907.jpg",
+        "image_caption": "a kitchen with a stove, oven, sink, and refrigerator",
+        "depth_sentence": "a bag is more distant than a faucet",
+        "horizontal_sentence": "a window is to the right of a door",
+        "vertical_sentence": "a trivet is below a bag"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_00917.jpg",
+        "image_caption": "a bedroom with a bed, dresser, and a guitar",
+        "depth_sentence": "a wardrobe is more distant than a container",
+        "horizontal_sentence": "a night stand is to the right of a scissor",
+        "vertical_sentence": "a guitar case is below a night stand"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_00925.jpg",
+        "image_caption": "a bedroom with a bed and desk",
+        "depth_sentence": "a curtain is more distant than a desk",
+        "horizontal_sentence": "a cup is to the right of a pillow",
+        "vertical_sentence": "a door knob is below a tissue box"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_00927.jpg",
+        "image_caption": "a desk with a chair next to it",
+        "depth_sentence": "a cup is closer than a curtain",
+        "horizontal_sentence": "a lamp is to the right of a pillow",
+        "vertical_sentence": "a garbage bin is below a pillow"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_00931.jpg",
+        "image_caption": "a bedroom with a bed, desk, and window",
+        "depth_sentence": "a shelves is nearer than a box",
+        "horizontal_sentence": "a picture is to the left of a television",
+        "vertical_sentence": "a box is below a window"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_00932.jpg",
+        "image_caption": "a bed with a black cover and a shelf",
+        "depth_sentence": "a garbage bin is in front of a speaker",
+        "horizontal_sentence": "a curtain is to the right of a speaker",
+        "vertical_sentence": "a picture is above a laptop"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_00933.jpg",
+        "image_caption": "a blue couch in a room",
+        "depth_sentence": "a backpack is closer than a shelves",
+        "horizontal_sentence": "a laptop is to the left of a bed",
+        "vertical_sentence": "a night stand is below a shelves"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_00934.jpg",
+        "image_caption": "a bedroom with a desk and a tv",
+        "depth_sentence": "a box is farther away than a chair",
+        "horizontal_sentence": "a lamp is to the right of a bed",
+        "vertical_sentence": "a bed is below a television"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_00944.jpg",
+        "image_caption": "a bed with a blanket and a few other things on it",
+        "depth_sentence": "a bag is closer than a window",
+        "horizontal_sentence": "a printer is to the right of a window",
+        "vertical_sentence": "a box is above a scale"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_00945.jpg",
+        "image_caption": "a bedroom with a bed, desk, and computer",
+        "depth_sentence": "a night stand is farther away than a book",
+        "horizontal_sentence": "a speaker is to the right of a candlestick",
+        "vertical_sentence": "a box is below a clock"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_00946.jpg",
+        "image_caption": "a man standing in front of a bed in a bedroom",
+        "depth_sentence": "a blinds is behind a chair",
+        "horizontal_sentence": "a box is to the right of a fish tank",
+        "vertical_sentence": "a blinds is above a box"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_00958.jpg",
+        "image_caption": "a bedroom with a bed, two lamps and a wall mounted clock",
+        "depth_sentence": "a paper is behind a picture",
+        "horizontal_sentence": "a blinds is to the right of a picture",
+        "vertical_sentence": "a remote control is above a table"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_00959.jpg",
+        "image_caption": "a bedroom with a bed, a lamp, and a tv",
+        "depth_sentence": "a dresser is closer than a towel",
+        "horizontal_sentence": "a dresser is to the right of a bed",
+        "vertical_sentence": "a mirror is above a towel"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_00960.jpg",
+        "image_caption": "a bed with a purple and green comforter",
+        "depth_sentence": "a lamp is farther away than a floor mat",
+        "horizontal_sentence": "a night stand is to the right of a chair",
+        "vertical_sentence": "a floor mat is below a lamp"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_00961.jpg",
+        "image_caption": "a bedroom with a bed, a dresser, and a closet",
+        "depth_sentence": "a picture is closer than a wall decoration",
+        "horizontal_sentence": "a blinds is to the left of a clock",
+        "vertical_sentence": "a night stand is below a picture"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_00964.jpg",
+        "image_caption": "a bedroom with a bed, chair and a rug",
+        "depth_sentence": "a headboard is more distant than a dresser",
+        "horizontal_sentence": "a floor mat is to the left of a dresser",
+        "vertical_sentence": "a headboard is above a floor mat"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_00965.jpg",
+        "image_caption": "a bedroom with a bed, a desk, a chair, a book shelf and a tv",
+        "depth_sentence": "a bottle is nearer than a bed",
+        "horizontal_sentence": "a yoga mat is to the right of a chair",
+        "vertical_sentence": "a lamp is above a table"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_00966.jpg",
+        "image_caption": "a room with a chair and a dresser",
+        "depth_sentence": "a xbox is nearer than a blinds",
+        "horizontal_sentence": "a television is to the right of a speaker",
+        "vertical_sentence": "a xbox is below a remote control"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_00969.jpg",
+        "image_caption": "a bedroom with a dresser and a tv",
+        "depth_sentence": "a picture is more distant than a sofa",
+        "horizontal_sentence": "a picture is to the left of a television",
+        "vertical_sentence": "a clothes is below a picture"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_00970.jpg",
+        "image_caption": "a bed with a stuffed animal on it",
+        "depth_sentence": "a pillow is nearer than a blanket",
+        "horizontal_sentence": "a pillow is to the right of a blanket",
+        "vertical_sentence": "a blanket is below an alarm clock"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_00971.jpg",
+        "image_caption": "a bed with a messy blanket on it",
+        "depth_sentence": "a door is in front of a headboard",
+        "horizontal_sentence": "a headboard is to the right of a clock",
+        "vertical_sentence": "a clock is above a towel"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_00972.jpg",
+        "image_caption": "a bedroom with a dresser and a door",
+        "depth_sentence": "a towel is closer than a headboard",
+        "horizontal_sentence": "a night stand is to the right of a bag",
+        "vertical_sentence": "a towel is below a pillow"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_00973.jpg",
+        "image_caption": "a stuffed animal is sitting on a bed",
+        "depth_sentence": "an alarm clock is behind an electrical outlet",
+        "horizontal_sentence": "a night stand is to the right of a headboard",
+        "vertical_sentence": "a sofa is below a lamp"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_00990.jpg",
+        "image_caption": "a bedroom with a bed and a desk",
+        "depth_sentence": "a light is closer than a books",
+        "horizontal_sentence": "a fan is to the left of a pillow",
+        "vertical_sentence": "a chair is below a fan"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_00991.jpg",
+        "image_caption": "a bedroom with a bed, dresser, and a window",
+        "depth_sentence": "a certificate is farther away than a fan",
+        "horizontal_sentence": "a books is to the left of a lamp",
+        "vertical_sentence": "a fan is above a bed"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_00992.jpg",
+        "image_caption": "a bedroom with a bed, a closet, and a book shelf",
+        "depth_sentence": "a clothes is farther away than a pillow",
+        "horizontal_sentence": "a bed is to the left of a stereo",
+        "vertical_sentence": "a chair is below a cork board"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_00993.jpg",
+        "image_caption": "a bedroom with a bed and a dresser",
+        "depth_sentence": "a light is behind a remote control",
+        "horizontal_sentence": "a remote control is to the right of a lamp",
+        "vertical_sentence": "a cup is below a light"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_00994.jpg",
+        "image_caption": "a treadmill in a bedroom with a bookcase and a window",
+        "depth_sentence": "a bookshelf is closer than a phone jack",
+        "horizontal_sentence": "a lamp is to the left of a bed",
+        "vertical_sentence": "a phone jack is below a lamp"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_01000.jpg",
+        "image_caption": "a room with a tv, a bed, and a stuffed animal",
+        "depth_sentence": "a candle is closer than a door",
+        "horizontal_sentence": "a stereo is to the right of a doll",
+        "vertical_sentence": "a doll is above a canister"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_01002.jpg",
+        "image_caption": "a room with a door and a speaker on the wall",
+        "depth_sentence": "a bag is nearer than a cabinet",
+        "horizontal_sentence": "a stereo is to the left of a door",
+        "vertical_sentence": "a cabinet is above a bag"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_01009.jpg",
+        "image_caption": "a closet with a door that has a shoe rack on it",
+        "depth_sentence": "a pillow is closer than a picture",
+        "horizontal_sentence": "a sofa is to the left of a picture",
+        "vertical_sentence": "a pillow is below a picture"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_01010.jpg",
+        "image_caption": "a couch in a room with a pink wall",
+        "depth_sentence": "a purse is in front of a towel",
+        "horizontal_sentence": "a towel is to the left of a sheets",
+        "vertical_sentence": "a purse is above a sofa"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_01011.jpg",
+        "image_caption": "a room with pink walls and a chair",
+        "depth_sentence": "a backpack is behind a binder",
+        "horizontal_sentence": "a backpack is to the left of a towel rod",
+        "vertical_sentence": "a garbage bin is above a binder"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_01020.jpg",
+        "image_caption": "a bedroom with a bed and a lamp",
+        "depth_sentence": "a telephone is more distant than a bed",
+        "horizontal_sentence": "a bottle is to the left of a headboard",
+        "vertical_sentence": "a dresser is below a telephone"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_01021.jpg",
+        "image_caption": "a bedroom with a bed and a desk",
+        "depth_sentence": "a lamp is farther away than a folder",
+        "horizontal_sentence": "a night stand is to the right of a headboard",
+        "vertical_sentence": "a folder is below a night stand"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_01022.jpg",
+        "image_caption": "a small room with a desk and chair",
+        "depth_sentence": "a box is farther away than a gift wrapping",
+        "horizontal_sentence": "a lamp is to the right of a paper",
+        "vertical_sentence": "a lamp is above a gift wrapping"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_01031.jpg",
+        "image_caption": "a bed in a room",
+        "depth_sentence": "a desk is nearer than a bottle",
+        "horizontal_sentence": "a chair is to the left of a bottle",
+        "vertical_sentence": "a desk is below a bottle"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_01033.jpg",
+        "image_caption": "a desk with a chair and a cabinet",
+        "depth_sentence": "an electrical outlet is farther away than a bed",
+        "horizontal_sentence": "a bag is to the left of a bed",
+        "vertical_sentence": "a garbage bin is below an electrical outlet"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_01037.jpg",
+        "image_caption": "a bedroom with a window and a bed",
+        "depth_sentence": "a window box is more distant than a toy",
+        "horizontal_sentence": "a bunk bed is to the right of a speaker",
+        "vertical_sentence": "a yarmulka is below a stuffed animal"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_01047.jpg",
+        "image_caption": "a bedroom with a bed, a chair, a dresser and a mirror",
+        "depth_sentence": "a cup is more distant than an alarm clock",
+        "horizontal_sentence": "a table runner is to the right of a cup",
+        "vertical_sentence": "a can is below a lamp"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_01048.jpg",
+        "image_caption": "a bed with a blanket on it and a lamp",
+        "depth_sentence": "a dresser is behind a table",
+        "horizontal_sentence": "a chair is to the right of a headboard",
+        "vertical_sentence": "a picture is above a chair"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_01052.jpg",
+        "image_caption": "a desk with a chair and a book shelf",
+        "depth_sentence": "a notebook is in front of a dresser",
+        "horizontal_sentence": "a comb is to the left of a remote control",
+        "vertical_sentence": "a notebook is above a clothes"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_01074.jpg",
+        "image_caption": "a bedroom with a bed and a chair in it",
+        "depth_sentence": "a bag is closer than a fan",
+        "horizontal_sentence": "a fan is to the right of a bed",
+        "vertical_sentence": "a bag is below a lamp"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_01075.jpg",
+        "image_caption": "a bedroom with a bed and a nightstand",
+        "depth_sentence": "a curtain is farther away than a bench",
+        "horizontal_sentence": "a poster case is to the left of a box",
+        "vertical_sentence": "a bench is below a tissue box"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_01076.jpg",
+        "image_caption": "a room with two bunk beds and a desk",
+        "depth_sentence": "a bed is nearer than a table",
+        "horizontal_sentence": "a ladder is to the right of a toy",
+        "vertical_sentence": "a toy is above a chair"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_01077.jpg",
+        "image_caption": "a room with two beds and a ladder",
+        "depth_sentence": "a telephone is closer than a picture",
+        "horizontal_sentence": "a telephone is to the right of a bunk bed",
+        "vertical_sentence": "a telephone is below a picture"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_01078.jpg",
+        "image_caption": "a room with a chair and a table in it",
+        "depth_sentence": "a toy is farther away than a mirror",
+        "horizontal_sentence": "a toy is to the right of a mirror",
+        "vertical_sentence": "a bed is below a toy"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_01080.jpg",
+        "image_caption": "a bedroom with a bed, desk, and a chair",
+        "depth_sentence": "a bookshelf is in front of a window",
+        "horizontal_sentence": "a bag is to the right of a window",
+        "vertical_sentence": "a tissue box is below a lamp"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_01081.jpg",
+        "image_caption": "a room with a bed, a crib, a desk, a chair, a tv and a",
+        "depth_sentence": "a bookshelf is farther away than a cup",
+        "horizontal_sentence": "a bookshelf is to the right of a desk",
+        "vertical_sentence": "a shelves is above a plate"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_01082.jpg",
+        "image_caption": "a bed with a white chair next to it",
+        "depth_sentence": "a bookshelf is farther away than a door",
+        "horizontal_sentence": "a baby chair is to the left of a table",
+        "vertical_sentence": "a table is below a blinds"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_01083.jpg",
+        "image_caption": "a desk with a computer and a baby's playpen",
+        "depth_sentence": "a blinds is farther away than a bottle",
+        "horizontal_sentence": "a blinds is to the right of a desk",
+        "vertical_sentence": "a bottle is above a playpen"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_01087.jpg",
+        "image_caption": "a bed with a laptop on it and a blanket",
+        "depth_sentence": "a mouse pad is more distant than a keyboard",
+        "horizontal_sentence": "a stereo is to the right of a bed",
+        "vertical_sentence": "an alarm clock is below a monitor"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_01088.jpg",
+        "image_caption": "a bedroom with a piano, a computer, and a bed",
+        "depth_sentence": "a sheet music is behind a bed",
+        "horizontal_sentence": "a chair is to the left of a lamp",
+        "vertical_sentence": "a sheet music is above a bed"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_01089.jpg",
+        "image_caption": "a room with a tv and a computer on a desk",
+        "depth_sentence": "a book is nearer than a dvd player",
+        "horizontal_sentence": "a curtain is to the right of a picture",
+        "vertical_sentence": "a books is below a curtain"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_01090.jpg",
+        "image_caption": "a bedroom with a white bed and a dresser",
+        "depth_sentence": "a broom is behind an alarm clock",
+        "horizontal_sentence": "a book is to the left of a broom",
+        "vertical_sentence": "a table is below an alarm clock"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_01091.jpg",
+        "image_caption": "a bedroom with a bed, a lamp, and a bookcase",
+        "depth_sentence": "an alarm clock is closer than a telephone",
+        "horizontal_sentence": "a bed is to the right of a picture",
+        "vertical_sentence": "an alarm clock is above a bucket"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_01092.jpg",
+        "image_caption": "a bedroom with a dresser and a bed",
+        "depth_sentence": "an alarm clock is nearer than a garbage bin",
+        "horizontal_sentence": "a garbage bin is to the left of an alarm clock",
+        "vertical_sentence": "a books is above a box"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_01093.jpg",
+        "image_caption": "a bed with a black and white comforter and pillows",
+        "depth_sentence": "a bed is closer than a flower",
+        "horizontal_sentence": "a mirror is to the left of a books",
+        "vertical_sentence": "a flower is above a books"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_01094.jpg",
+        "image_caption": "a bedroom with a bed, a dresser and a mirror",
+        "depth_sentence": "a vase is more distant than a box",
+        "horizontal_sentence": "a flower is to the left of a box",
+        "vertical_sentence": "a vase is above a medal"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_01097.jpg",
+        "image_caption": "a bedroom with a bed, desk, and chair",
+        "depth_sentence": "a stuffed animal is nearer than a night stand",
+        "horizontal_sentence": "a cup is to the right of a bed",
+        "vertical_sentence": "a night stand is below a lamp"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_01098.jpg",
+        "image_caption": "a bed in a room",
+        "depth_sentence": "a paper is nearer than a headboard",
+        "horizontal_sentence": "a headboard is to the right of a bookshelf",
+        "vertical_sentence": "a decorative plate is below a window"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_01101.jpg",
+        "image_caption": "a bedroom with a chair and a bed",
+        "depth_sentence": "a picture is behind a window",
+        "horizontal_sentence": "a night stand is to the left of a paper",
+        "vertical_sentence": "a night stand is below a window"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_01102.jpg",
+        "image_caption": "a bedroom with a desk and a closet",
+        "depth_sentence": "a doll is nearer than a fan",
+        "horizontal_sentence": "a kinect is to the right of a football",
+        "vertical_sentence": "a belt is below a remote control"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_01103.jpg",
+        "image_caption": "a messy bedroom with a bed and a few pillows",
+        "depth_sentence": "an ipod dock is in front of a basketball hoop",
+        "horizontal_sentence": "a basketball hoop is to the right of a box",
+        "vertical_sentence": "a dresser is above a box"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_01106.jpg",
+        "image_caption": "a bed with a blanket on it and a chair",
+        "depth_sentence": "a bag is behind a night stand",
+        "horizontal_sentence": "a show piece is to the left of a cup",
+        "vertical_sentence": "a show piece is below a cup"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_01107.jpg",
+        "image_caption": "a living room with a chair and a tv",
+        "depth_sentence": "a books is nearer than a blanket",
+        "horizontal_sentence": "a plant pot is to the left of a dresser",
+        "vertical_sentence": "a books is below a television"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_01116.jpg",
+        "image_caption": "two beds in a room",
+        "depth_sentence": "a night stand is nearer than a light",
+        "horizontal_sentence": "a light is to the right of a night stand",
+        "vertical_sentence": "a radio is below a light"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_01118.jpg",
+        "image_caption": "a table with a glass top and two chairs",
+        "depth_sentence": "a window shelf is behind a garbage bin",
+        "horizontal_sentence": "a window shelf is to the left of a garbage bin",
+        "vertical_sentence": "a decorative bowl is above a garbage bin"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_01122.jpg",
+        "image_caption": "a bedroom with a bed and a stuffed animal",
+        "depth_sentence": "a blinds is farther away than an alarm clock",
+        "horizontal_sentence": "a box is to the right of a bed",
+        "vertical_sentence": "a pillow is below a box"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_01123.jpg",
+        "image_caption": "a bedroom with a bed and a desk",
+        "depth_sentence": "a book is nearer than a box",
+        "horizontal_sentence": "a book is to the right of a hat",
+        "vertical_sentence": "a book is below a blinds"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_01124.jpg",
+        "image_caption": "a bedroom with a desk and a bed",
+        "depth_sentence": "a book is in front of a books",
+        "horizontal_sentence": "a book holder is to the right of a bed",
+        "vertical_sentence": "a toy is above a book holder"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_01125.jpg",
+        "image_caption": "a small bed with a stuffed animal on it",
+        "depth_sentence": "a doll is farther away than a lamp",
+        "horizontal_sentence": "a night stand is to the right of a doll",
+        "vertical_sentence": "a night stand is below a doll"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_01128.jpg",
+        "image_caption": "a messy bedroom with a bed and a dresser",
+        "depth_sentence": "a clothes is in front of a headboard",
+        "horizontal_sentence": "a remote control is to the right of a bed",
+        "vertical_sentence": "a mattress is below a sculpture"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_01129.jpg",
+        "image_caption": "a bedroom with a bed, a dresser and a tv",
+        "depth_sentence": "a bag is closer than a picture",
+        "horizontal_sentence": "a television is to the left of a bed",
+        "vertical_sentence": "a book is below a television"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_01143.jpg",
+        "image_caption": "a small bed with a pink and blue comforter",
+        "depth_sentence": "a bag is farther away than a bed",
+        "horizontal_sentence": "a toy kitchen is to the right of a bag",
+        "vertical_sentence": "a telephone is above a toy dog"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_01144.jpg",
+        "image_caption": "a room with a toy house and bookshelves",
+        "depth_sentence": "a toy apple is closer than a doll",
+        "horizontal_sentence": "a medal is to the left of a toy kitchen",
+        "vertical_sentence": "a toy house is below a medal"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_01145.jpg",
+        "image_caption": "a room with a bookcase and a dollhouse",
+        "depth_sentence": "a towel is more distant than a stereo",
+        "horizontal_sentence": "a desk is to the right of a dresser",
+        "vertical_sentence": "a stereo is above a cell phone"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_01149.jpg",
+        "image_caption": "a bedroom with a bed, a dresser, a tv, and a bookcase",
+        "depth_sentence": "a bottle is behind a paper",
+        "horizontal_sentence": "a dvd player is to the right of a rug",
+        "vertical_sentence": "a bottle is above a television"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_01150.jpg",
+        "image_caption": "a bed with a quilt on it sitting in a room",
+        "depth_sentence": "a chair is farther away than a blanket",
+        "horizontal_sentence": "a blanket is to the left of a floor mat",
+        "vertical_sentence": "a picture is above a chair"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_01151.jpg",
+        "image_caption": "a bedroom with a rocking chair and a bed",
+        "depth_sentence": "an electrical outlet is nearer than an alarm clock",
+        "horizontal_sentence": "a night stand is to the left of a picture",
+        "vertical_sentence": "a pen is below a lamp"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_01152.jpg",
+        "image_caption": "a small bed with a stuffed animal on it",
+        "depth_sentence": "a drawer knob is in front of a pillow",
+        "horizontal_sentence": "a bed is to the left of a drawer knob",
+        "vertical_sentence": "a stuffed animal is below a drawer knob"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_01153.jpg",
+        "image_caption": "a messy bedroom with a desk and a red dog",
+        "depth_sentence": "a backpack is closer than a door knob",
+        "horizontal_sentence": "a pillow is to the right of a notebook",
+        "vertical_sentence": "a notebook is below a door knob"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_01154.jpg",
+        "image_caption": "a messy room with a book shelf and a mirror",
+        "depth_sentence": "a bookshelf is behind a door knob",
+        "horizontal_sentence": "a bookshelf is to the right of a door knob",
+        "vertical_sentence": "a curtain is above a door knob"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_01155.jpg",
+        "image_caption": "a small room with a tent and a basket",
+        "depth_sentence": "a doll is more distant than a shelves",
+        "horizontal_sentence": "a doll is to the left of a door",
+        "vertical_sentence": "a shelves is above a basket"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_01156.jpg",
+        "image_caption": "a tent in a bedroom with a stuffed animal in it",
+        "depth_sentence": "a lamp is more distant than a blanket",
+        "horizontal_sentence": "a blanket is to the right of a chair",
+        "vertical_sentence": "a blanket is below a paper"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_01157.jpg",
+        "image_caption": "a bed with a pillow and a nightstand next to it",
+        "depth_sentence": "a speaker is closer than a pillow",
+        "horizontal_sentence": "an alarm clock is to the right of a shelves",
+        "vertical_sentence": "a pillow is above a night stand"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_01161.jpg",
+        "image_caption": "a pink room with a dresser and a window",
+        "depth_sentence": "a door is nearer than a night stand",
+        "horizontal_sentence": "a doll is to the left of a blinds",
+        "vertical_sentence": "a bottle is above a night stand"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_01162.jpg",
+        "image_caption": "a small bed with a pink and white bedspread",
+        "depth_sentence": "a wall decoration is behind a lamp",
+        "horizontal_sentence": "a night stand is to the left of a wall decoration",
+        "vertical_sentence": "a blinds is above a night stand"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_01164.jpg",
+        "image_caption": "a bedroom with a bed, dresser and a window",
+        "depth_sentence": "a dresser is nearer than a window",
+        "horizontal_sentence": "a box is to the right of an electrical outlet",
+        "vertical_sentence": "a dresser is below a window"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_01166.jpg",
+        "image_caption": "a bedroom with a dresser and a bed",
+        "depth_sentence": "a bag is nearer than an alarm clock",
+        "horizontal_sentence": "a mirror is to the right of a blanket",
+        "vertical_sentence": "a mirror is above a blanket"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_01169.jpg",
+        "image_caption": "a room with a desk, bookshelf and computer",
+        "depth_sentence": "a hat is in front of a monitor",
+        "horizontal_sentence": "a bookshelf is to the right of a monitor",
+        "vertical_sentence": "a hat is above a desk"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_01170.jpg",
+        "image_caption": "a messy bedroom with a bed and a desk",
+        "depth_sentence": "a cd is nearer than a shelves",
+        "horizontal_sentence": "a doll is to the right of a decoration item",
+        "vertical_sentence": "a decoration item is above a bed"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_01173.jpg",
+        "image_caption": "a bed with a blanket and pillows",
+        "depth_sentence": "a dresser is more distant than a tissue box",
+        "horizontal_sentence": "a bed is to the right of a tissue box",
+        "vertical_sentence": "a tissue box is below a dresser"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_01174.jpg",
+        "image_caption": "a bedroom with a bed, dresser and lamp",
+        "depth_sentence": "a bed is nearer than a bulb",
+        "horizontal_sentence": "a pillow is to the left of a chair",
+        "vertical_sentence": "a bulb is above an alarm clock"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_01175.jpg",
+        "image_caption": "a bed with a blanket and pillows",
+        "depth_sentence": "a lamp is more distant than a remote control",
+        "horizontal_sentence": "a night stand is to the right of a lamp",
+        "vertical_sentence": "a night stand is below a lamp"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_01179.jpg",
+        "image_caption": "a desk and chair in a room",
+        "depth_sentence": "a lamp is more distant than a bed",
+        "horizontal_sentence": "a cabinet is to the right of a lamp",
+        "vertical_sentence": "a bed is below a paper"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_01180.jpg",
+        "image_caption": "a bed with a yellow blanket and pillows",
+        "depth_sentence": "a picture is behind a lamp",
+        "horizontal_sentence": "a bag is to the right of a door",
+        "vertical_sentence": "a bag is below a picture"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_01181.jpg",
+        "image_caption": "a room with a bed and a rug",
+        "depth_sentence": "a box is behind a bed",
+        "horizontal_sentence": "a lamp is to the right of a pillow",
+        "vertical_sentence": "a paper is below a headboard"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_01182.jpg",
+        "image_caption": "a room with a chair and a bed",
+        "depth_sentence": "a bed is farther away than a magazine",
+        "horizontal_sentence": "a bed is to the left of a magazine",
+        "vertical_sentence": "a dresser is below a light"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_01191.jpg",
+        "image_caption": "a bedroom with a bed and a desk",
+        "depth_sentence": "a paper is nearer than a dresser",
+        "horizontal_sentence": "a dresser is to the right of a tissue box",
+        "vertical_sentence": "a lamp is above a paper"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_01193.jpg",
+        "image_caption": "a desk and chair in a room with a bookcase",
+        "depth_sentence": "a bag is in front of a door knob",
+        "horizontal_sentence": "a chair is to the left of a door knob",
+        "vertical_sentence": "a bag is below a door knob"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_01194.jpg",
+        "image_caption": "a bed with a mattress and a box spring",
+        "depth_sentence": "a blinds is farther away than a bottle",
+        "horizontal_sentence": "a bag is to the left of a bottle",
+        "vertical_sentence": "a bottle is below a bookshelf"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/bedroom/rgb_01195.jpg",
+        "image_caption": "a bed with a bookcase and a dresser",
+        "depth_sentence": "a bookshelf is behind a bag",
+        "horizontal_sentence": "a bed is to the right of a picture",
+        "vertical_sentence": "a toy is below a blinds"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/living_room/rgb_01202.jpg",
+        "image_caption": "a chair and a suitcase in a room",
+        "depth_sentence": "a bag is nearer than a chair",
+        "horizontal_sentence": "a bag is to the right of a shelves",
+        "vertical_sentence": "a tennis racket is above a rags"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/living_room/rgb_01204.jpg",
+        "image_caption": "a living room with a couch, coffee table, and books",
+        "depth_sentence": "a cabinet is farther away than a decorative bowl",
+        "horizontal_sentence": "a box is to the left of a bag",
+        "vertical_sentence": "a coffee table is below a picture"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/living_room/rgb_01206.jpg",
+        "image_caption": "a large sectional couch in a living room",
+        "depth_sentence": "a laptop is more distant than a floor mat",
+        "horizontal_sentence": "an electrical outlet is to the left of a table",
+        "vertical_sentence": "a table is below a laptop"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/living_room/rgb_01207.jpg",
+        "image_caption": "a living room with a couch, coffee table, fireplace and tv",
+        "depth_sentence": "a door is farther away than a plant pot",
+        "horizontal_sentence": "a fireplace is to the right of a plate",
+        "vertical_sentence": "a picture is above a table"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/living_room/rgb_01208.jpg",
+        "image_caption": "a black grand piano in a living room",
+        "depth_sentence": "a table is farther away than a briefcase",
+        "horizontal_sentence": "a picture is to the left of a piano bench",
+        "vertical_sentence": "a coffee table is below a lamp"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/living_room/rgb_01209.jpg",
+        "image_caption": "a glass table with a vase on it",
+        "depth_sentence": "a figurine is closer than a lamp",
+        "horizontal_sentence": "a chair is to the left of a pillow",
+        "vertical_sentence": "a picture is above a figurine"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/living_room/rgb_01210.jpg",
+        "image_caption": "a living room with a couch and a coffee table",
+        "depth_sentence": "a pillow is nearer than a bag",
+        "horizontal_sentence": "a decorative item is to the right of a sofa",
+        "vertical_sentence": "a table is below a counter"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/living_room/rgb_01211.jpg",
+        "image_caption": "a living room with a piano and a couch",
+        "depth_sentence": "a sheet music is more distant than a books",
+        "horizontal_sentence": "a cup is to the right of a piano bench",
+        "vertical_sentence": "a sheet music is above a piano bench"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/living_room/rgb_01216.jpg",
+        "image_caption": "a living room with a couch and a book shelf",
+        "depth_sentence": "a suitcase is nearer than a bag",
+        "horizontal_sentence": "a table is to the right of a rug",
+        "vertical_sentence": "a paper is below a bag"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/living_room/rgb_01217.jpg",
+        "image_caption": "a home gym with a treadmill, elliptical machine, and television",
+        "depth_sentence": "a television is in front of a door knob",
+        "horizontal_sentence": "a curtain is to the left of a table",
+        "vertical_sentence": "a dvd player is below a door knob"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/living_room/rgb_01218.jpg",
+        "image_caption": "a couch in a living room with a table and chairs",
+        "depth_sentence": "a sofa is nearer than a cabinet",
+        "horizontal_sentence": "a bookshelf is to the right of a stroller",
+        "vertical_sentence": "a bookshelf is above a stroller"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/living_room/rgb_01219.jpg",
+        "image_caption": "a living room with a couch, a table, and a tv",
+        "depth_sentence": "a mezuza is farther away than a pillow",
+        "horizontal_sentence": "a pillow is to the right of a toy stroller",
+        "vertical_sentence": "a counter is above a stroller"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/living_room/rgb_01225.jpg",
+        "image_caption": "a living room with a chair and a ottoman",
+        "depth_sentence": "a lamp is behind a coffee table",
+        "horizontal_sentence": "a television is to the left of a lamp",
+        "vertical_sentence": "an ottoman is below a window"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/living_room/rgb_01226.jpg",
+        "image_caption": "a living room with a table and chairs",
+        "depth_sentence": "a bowl is behind a coffee table",
+        "horizontal_sentence": "a bowl is to the left of a picture",
+        "vertical_sentence": "a coffee table is below a picture"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/living_room/rgb_01227.jpg",
+        "image_caption": "a table with a cloth on it and candles on it",
+        "depth_sentence": "a door is behind a table",
+        "horizontal_sentence": "a table is to the left of a sofa",
+        "vertical_sentence": "a sofa is below a lamp"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/living_room/rgb_01232.jpg",
+        "image_caption": "a living room with a couch, lamp, and a mirror",
+        "depth_sentence": "a blinds is behind a lamp",
+        "horizontal_sentence": "a ball is to the left of a curtain",
+        "vertical_sentence": "a wall decoration is above a floor mat"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/living_room/rgb_01233.jpg",
+        "image_caption": "a living room with a couch, a lamp, and a table",
+        "depth_sentence": "a wall decoration is farther away than a bowl",
+        "horizontal_sentence": "a blinds is to the left of a lamp",
+        "vertical_sentence": "a wall decoration is above a floor mat"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/living_room/rgb_01234.jpg",
+        "image_caption": "a room with a table and a lamp in it",
+        "depth_sentence": "a lamp is in front of a wall decoration",
+        "horizontal_sentence": "a sofa is to the left of a shelf frame",
+        "vertical_sentence": "a shelves is above a table"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/living_room/rgb_01246.jpg",
+        "image_caption": "a room with a tv, bookshelves and a microwave",
+        "depth_sentence": "a toy boat is nearer than a television",
+        "horizontal_sentence": "a toy is to the left of a toy boat",
+        "vertical_sentence": "a television is below a toy"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/living_room/rgb_01247.jpg",
+        "image_caption": "a living room with a red couch and a table",
+        "depth_sentence": "a picture is nearer than a wall decoration",
+        "horizontal_sentence": "a picture is to the left of a bowl",
+        "vertical_sentence": "a wall decoration is above a bowl"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/living_room/rgb_01253.jpg",
+        "image_caption": "a living room with a couch, a piano and a television",
+        "depth_sentence": "a table is behind a pillow",
+        "horizontal_sentence": "a piano bench is to the right of a table",
+        "vertical_sentence": "a blinds is below an air vent"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/living_room/rgb_01254.jpg",
+        "image_caption": "a living room with a couch, chairs, and a table",
+        "depth_sentence": "an air vent is farther away than a bag",
+        "horizontal_sentence": "a blinds is to the right of a door",
+        "vertical_sentence": "a table is above an electrical outlet"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/living_room/rgb_01255.jpg",
+        "image_caption": "a hallway with a picture frame and a mirror",
+        "depth_sentence": "a lamp is farther away than a sculpture",
+        "horizontal_sentence": "a bag is to the right of a sculpture",
+        "vertical_sentence": "an air vent is above an electrical outlet"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/living_room/rgb_01256.jpg",
+        "image_caption": "a living room with a couch and chairs",
+        "depth_sentence": "a book is closer than a lamp",
+        "horizontal_sentence": "a book is to the right of a lamp",
+        "vertical_sentence": "a book is below a pillow"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/living_room/rgb_01257.jpg",
+        "image_caption": "a man sitting on a couch in a living room",
+        "depth_sentence": "a coffee table is closer than a dvds",
+        "horizontal_sentence": "a counter is to the right of a window",
+        "vertical_sentence": "a telephone is below a dvds"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/living_room/rgb_01258.jpg",
+        "image_caption": "a man sitting on a couch in a living room",
+        "depth_sentence": "a fireplace is farther away than a table",
+        "horizontal_sentence": "a window is to the right of a cup",
+        "vertical_sentence": "a cup is below a lamp"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/living_room/rgb_01259.jpg",
+        "image_caption": "a man sitting in a chair watching a baseball game on a tv",
+        "depth_sentence": "a person is closer than a fireplace",
+        "horizontal_sentence": "a television is to the left of a fireplace",
+        "vertical_sentence": "a clothes is below a fireplace"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/living_room/rgb_01260.jpg",
+        "image_caption": "a living room with a television and a couch",
+        "depth_sentence": "a tea kettle is behind a cup",
+        "horizontal_sentence": "a blinds is to the left of a cup",
+        "vertical_sentence": "a television is above a coffee table"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/living_room/rgb_01261.jpg",
+        "image_caption": "a desk with a chair and a refrigerator in a room",
+        "depth_sentence": "a dvd player is more distant than a computer",
+        "horizontal_sentence": "an ipod dock is to the right of a monitor",
+        "vertical_sentence": "a monitor is above a drawer"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/living_room/rgb_01262.jpg",
+        "image_caption": "a living room with a couch, a chair, a tv, and a bookcase",
+        "depth_sentence": "a speaker is behind a floor mat",
+        "horizontal_sentence": "a sleeping bag is to the right of a television",
+        "vertical_sentence": "a speaker is above a paper"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/living_room/rgb_01264.jpg",
+        "image_caption": "a living room with a couch and chairs",
+        "depth_sentence": "a thermostat is more distant than a paper",
+        "horizontal_sentence": "a thermostat is to the right of a paper",
+        "vertical_sentence": "a wii is below a quilt"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/living_room/rgb_01274.jpg",
+        "image_caption": "a living room with a book shelf and a couch",
+        "depth_sentence": "a backpack is nearer than a bin",
+        "horizontal_sentence": "a decorative plate is to the left of a sculpture",
+        "vertical_sentence": "a backpack is below a decorative plate"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/living_room/rgb_01275.jpg",
+        "image_caption": "a living room with a couch, a table, and a kitchen",
+        "depth_sentence": "a book is in front of a range hood",
+        "horizontal_sentence": "a floor mat is to the left of a backpack",
+        "vertical_sentence": "a paper is above a floor mat"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/living_room/rgb_01276.jpg",
+        "image_caption": "a living room with a couch, chairs, and a table",
+        "depth_sentence": "a coffee table is nearer than a sheet music",
+        "horizontal_sentence": "an ottoman is to the right of a vase",
+        "vertical_sentence": "a sheet music is above a table"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/living_room/rgb_01277.jpg",
+        "image_caption": "a living room with a couch, coffee table, and a rug",
+        "depth_sentence": "a floor mat is closer than a sheet music",
+        "horizontal_sentence": "a plant is to the left of a vase",
+        "vertical_sentence": "a coffee table is below a plant"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/living_room/rgb_01278.jpg",
+        "image_caption": "a living room with a piano and a couch",
+        "depth_sentence": "a sheet music is nearer than a flower pot",
+        "horizontal_sentence": "a door is to the right of a floor mat",
+        "vertical_sentence": "a flower is above a floor mat"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/living_room/rgb_01284.jpg",
+        "image_caption": "a chair and a bookcase in a room",
+        "depth_sentence": "a drawer is farther away than a pillow",
+        "horizontal_sentence": "a sofa is to the right of a wall decoration",
+        "vertical_sentence": "a pillow is below a television"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/living_room/rgb_01285.jpg",
+        "image_caption": "a living room with a couch, chair, and table",
+        "depth_sentence": "a chair is farther away than a table",
+        "horizontal_sentence": "a blanket is to the right of a shelves",
+        "vertical_sentence": "a table is below a shelves"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/living_room/rgb_01286.jpg",
+        "image_caption": "a living room with a couch, chair, and a tv",
+        "depth_sentence": "a blanket is closer than an electrical outlet",
+        "horizontal_sentence": "a bookshelf is to the left of an electrical outlet",
+        "vertical_sentence": "a bowl is below a television"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/living_room/rgb_01287.jpg",
+        "image_caption": "a living room with a couch, a table, and a tv",
+        "depth_sentence": "a window is more distant than a coffee table",
+        "horizontal_sentence": "a dvd player is to the right of a window",
+        "vertical_sentence": "a wall decoration is above a cabinet"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/living_room/rgb_01288.jpg",
+        "image_caption": "a living room with a couch, chair, and table",
+        "depth_sentence": "a television is behind a pillow",
+        "horizontal_sentence": "a door is to the right of a vase",
+        "vertical_sentence": "a lamp is above a pillow"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/living_room/rgb_01289.jpg",
+        "image_caption": "a living room with a couch, a coffee table, and a tv",
+        "depth_sentence": "a remote control is in front of a table",
+        "horizontal_sentence": "a coffee table is to the left of a plant",
+        "vertical_sentence": "a stuffed animal is below a table"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/living_room/rgb_01290.jpg",
+        "image_caption": "a living room with a red couch and pictures on the wall",
+        "depth_sentence": "a coffee table is farther away than a purse",
+        "horizontal_sentence": "a purse is to the left of a table",
+        "vertical_sentence": "an air vent is above a chair"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/living_room/rgb_01291.jpg",
+        "image_caption": "a living room with a television and a dining room",
+        "depth_sentence": "a foot rest is in front of a pillow",
+        "horizontal_sentence": "a vase is to the left of a sofa",
+        "vertical_sentence": "a vase is above a cabinet"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/living_room/rgb_01292.jpg",
+        "image_caption": "a living room with a couch and a cabinet with plates on it",
+        "depth_sentence": "a tea pot is in front of a refridgerator",
+        "horizontal_sentence": "a decorative candle is to the right of a refridgerator",
+        "vertical_sentence": "a bag is above a blanket"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/living_room/rgb_01297.jpg",
+        "image_caption": "a living room with a couch and a chair",
+        "depth_sentence": "a table is nearer than an ottoman",
+        "horizontal_sentence": "an ottoman is to the right of a table",
+        "vertical_sentence": "a table is below a door"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/living_room/rgb_01301.jpg",
+        "image_caption": "a living room with a large mirror and furniture",
+        "depth_sentence": "a book is nearer than a plant",
+        "horizontal_sentence": "a mirror is to the right of a book",
+        "vertical_sentence": "a picture is above a coffee table"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/living_room/rgb_01302.jpg",
+        "image_caption": "a large sectional couch with pillows and a coffee table",
+        "depth_sentence": "an ottoman is closer than a cabinet",
+        "horizontal_sentence": "a lamp is to the left of a cabinet",
+        "vertical_sentence": "an ottoman is below a lamp"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/living_room/rgb_01303.jpg",
+        "image_caption": "a living room with a large sectional couch and chairs",
+        "depth_sentence": "a book is nearer than a vase",
+        "horizontal_sentence": "a book is to the left of a table",
+        "vertical_sentence": "a book is below a wall decoration"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/living_room/rgb_01304.jpg",
+        "image_caption": "a living room with a large mirror and a couch",
+        "depth_sentence": "a mirror is behind an urn",
+        "horizontal_sentence": "a plant is to the left of a sofa",
+        "vertical_sentence": "a mirror is above a coffee table"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/living_room/rgb_01305.jpg",
+        "image_caption": "a piano in a hallway with a door and a door knob",
+        "depth_sentence": "a sofa is behind a door",
+        "horizontal_sentence": "a decorative platter is to the left of a piano bench",
+        "vertical_sentence": "a piano bench is below a sculpture"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/living_room/rgb_01306.jpg",
+        "image_caption": "a guitar sitting on a fireplace in a room",
+        "depth_sentence": "a sculpture is closer than a guitar",
+        "horizontal_sentence": "a floor mat is to the right of a dvd player",
+        "vertical_sentence": "a sculpture is above a dvd player"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/living_room/rgb_01307.jpg",
+        "image_caption": "a living room with a couch, chairs, and a tv",
+        "depth_sentence": "a chair is closer than a table",
+        "horizontal_sentence": "a pillow is to the left of a television",
+        "vertical_sentence": "an ottoman is below a television"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/living_room/rgb_01313.jpg",
+        "image_caption": "a couch and chair in a room with a red wall",
+        "depth_sentence": "an electrical outlet is nearer than a blinds",
+        "horizontal_sentence": "an electrical outlet is to the right of a blinds",
+        "vertical_sentence": "an electrical outlet is below a blinds"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/living_room/rgb_01314.jpg",
+        "image_caption": "a small table and chair in a room",
+        "depth_sentence": "a pillow is more distant than a table",
+        "horizontal_sentence": "a sofa is to the right of a door knob",
+        "vertical_sentence": "a pillow is above a vhs tapes"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/living_room/rgb_01328.jpg",
+        "image_caption": "a living room with a couch and a coffee table",
+        "depth_sentence": "a bag is farther away than a blinds",
+        "horizontal_sentence": "a bag is to the left of a throw",
+        "vertical_sentence": "a sculpture is above a coffee table"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/living_room/rgb_01330.jpg",
+        "image_caption": "a living room with a dog laying on the rug",
+        "depth_sentence": "a picture is more distant than a coffee table",
+        "horizontal_sentence": "a table is to the left of a coffee table",
+        "vertical_sentence": "a table is below a picture"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/living_room/rgb_01331.jpg",
+        "image_caption": "a guitar is sitting on a chair in a living room",
+        "depth_sentence": "a table is nearer than a floor mat",
+        "horizontal_sentence": "a floor mat is to the right of a table",
+        "vertical_sentence": "a table is below a television"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/living_room/rgb_01334.jpg",
+        "image_caption": "a living room with a couch, a chair, a coffee table, a bookcase and a",
+        "depth_sentence": "a fan is more distant than an air vent",
+        "horizontal_sentence": "a bag is to the right of an air vent",
+        "vertical_sentence": "an air vent is above a lamp"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/living_room/rgb_01335.jpg",
+        "image_caption": "a living room with a couch, a chair, a coffee table and a fan",
+        "depth_sentence": "a bookshelf is behind a lamp",
+        "horizontal_sentence": "a door is to the right of a pillow",
+        "vertical_sentence": "a door is above a pillow"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/living_room/rgb_01336.jpg",
+        "image_caption": "a living room with a couch, chair, and table",
+        "depth_sentence": "a light is farther away than a sofa",
+        "horizontal_sentence": "a bookshelf is to the left of a light",
+        "vertical_sentence": "a refridgerator is above a floor mat"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/living_room/rgb_01337.jpg",
+        "image_caption": "a living room with couches and chairs in front of a fireplace",
+        "depth_sentence": "a door is farther away than a floor mat",
+        "horizontal_sentence": "a coffee table is to the left of a blinds",
+        "vertical_sentence": "a coffee table is below a blinds"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/living_room/rgb_01338.jpg",
+        "image_caption": "a living room with a couch, chair, ottoman and mirror",
+        "depth_sentence": "a books is closer than a picture",
+        "horizontal_sentence": "a books is to the right of a bag",
+        "vertical_sentence": "a bag is above a books"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/living_room/rgb_01339.jpg",
+        "image_caption": "a woman standing in the middle of a living room",
+        "depth_sentence": "a coffee table is closer than a thermostat",
+        "horizontal_sentence": "a person is to the left of a coffee table",
+        "vertical_sentence": "a thermostat is above a remote control"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/dining_room/rgb_01346.jpg",
+        "image_caption": "a table with chairs and a lamp",
+        "depth_sentence": "a paper is in front of a lunch bag",
+        "horizontal_sentence": "a paper is to the right of a bag",
+        "vertical_sentence": "a cabinet is above a bottle"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/dining_room/rgb_01347.jpg",
+        "image_caption": "a high chair in a kitchen",
+        "depth_sentence": "a chair is closer than a bowl",
+        "horizontal_sentence": "a chair is to the left of a baby chair",
+        "vertical_sentence": "a lamp is above a package of bottled water"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/dining_room/rgb_01348.jpg",
+        "image_caption": "a dining room table with chairs and a lamp",
+        "depth_sentence": "a bowl is closer than a blinds",
+        "horizontal_sentence": "a bowl is to the left of a lamp",
+        "vertical_sentence": "a menorah is above a bowl"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/dining_room/rgb_01352.jpg",
+        "image_caption": "a table with a vase on it and a lamp",
+        "depth_sentence": "a vase is in front of a window",
+        "horizontal_sentence": "a plant is to the left of a table runner",
+        "vertical_sentence": "a table runner is below a sofa"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/dining_room/rgb_01353.jpg",
+        "image_caption": "a view of a room with a mirror and a dresser",
+        "depth_sentence": "a cabinet is in front of a sofa",
+        "horizontal_sentence": "a table runner is to the left of a cabinet",
+        "vertical_sentence": "a table runner is below a blinds"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/dining_room/rgb_01363.jpg",
+        "image_caption": "a dining room table with chairs and a chandelier",
+        "depth_sentence": "a door is farther away than a table",
+        "horizontal_sentence": "a cabinet is to the right of a thermostat",
+        "vertical_sentence": "a vase is above a cabinet"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/dining_room/rgb_01364.jpg",
+        "image_caption": "a dining room table with chairs and a lamp",
+        "depth_sentence": "a table is nearer than a mask",
+        "horizontal_sentence": "a tray is to the left of a mask",
+        "vertical_sentence": "a book is below a mask"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/dining_room/rgb_01367.jpg",
+        "image_caption": "a dining room table with chairs and a painting on the wall",
+        "depth_sentence": "a floor mat is closer than an oven",
+        "horizontal_sentence": "a table is to the left of an oven",
+        "vertical_sentence": "a fan is above a sculpture"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/dining_room/rgb_01368.jpg",
+        "image_caption": "a dining room with a table and chairs",
+        "depth_sentence": "a table is in front of an oven",
+        "horizontal_sentence": "a shelves is to the left of an oven",
+        "vertical_sentence": "a fan is above a table"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/dining_room/rgb_01383.jpg",
+        "image_caption": "a dining room table and chairs in a room",
+        "depth_sentence": "a flashlight is more distant than a flower",
+        "horizontal_sentence": "an electrical outlet is to the right of a table",
+        "vertical_sentence": "an electrical outlet is below a notebook"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/dining_room/rgb_01385.jpg",
+        "image_caption": "a kitchen with a table and chairs in it",
+        "depth_sentence": "a computer is more distant than a box",
+        "horizontal_sentence": "a hole puncher is to the left of a computer",
+        "vertical_sentence": "a bag is above a flower"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/dining_room/rgb_01386.jpg",
+        "image_caption": "a view of a living room and dining room with a piano",
+        "depth_sentence": "a vase is behind a plant",
+        "horizontal_sentence": "a sculpture is to the left of a candlestick",
+        "vertical_sentence": "a bowl is below an air vent"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/dining_room/rgb_01387.jpg",
+        "image_caption": "a hallway with a chair and a vase on the table",
+        "depth_sentence": "a blanket is closer than a cabinet",
+        "horizontal_sentence": "a thermostat is to the right of a blanket",
+        "vertical_sentence": "a pillow is below a decorative platter"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/dining_room/rgb_01388.jpg",
+        "image_caption": "a kitchen with white cabinets and a refrigerator",
+        "depth_sentence": "a bowl is closer than a bottle",
+        "horizontal_sentence": "a vase is to the right of a bag",
+        "vertical_sentence": "a bag is above a refridgerator"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/dining_room/rgb_01389.jpg",
+        "image_caption": "a dining room with a glass table and chairs",
+        "depth_sentence": "a table is farther away than a bag",
+        "horizontal_sentence": "a mirror is to the right of a bowl",
+        "vertical_sentence": "a tray is above a bag"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/dining_room/rgb_01398.jpg",
+        "image_caption": "a dining room table with chairs and a chandelier",
+        "depth_sentence": "a scissor is farther away than a folder",
+        "horizontal_sentence": "a scissor is to the right of a thermostat",
+        "vertical_sentence": "a scissor is below a thermostat"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/dining_room/rgb_01406.jpg",
+        "image_caption": "a dining room table and chairs in a house",
+        "depth_sentence": "a suitcase is more distant than a sofa",
+        "horizontal_sentence": "a door is to the left of a cabinet",
+        "vertical_sentence": "a sofa is below a door"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/dining_room/rgb_01407.jpg",
+        "image_caption": "a man standing in front of a dining room table",
+        "depth_sentence": "a clothes is in front of a cup",
+        "horizontal_sentence": "a books is to the right of a paper",
+        "vertical_sentence": "a cup is above a clothes"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/dining_room/rgb_01408.jpg",
+        "image_caption": "a table and chairs in a room",
+        "depth_sentence": "a box is behind a sock",
+        "horizontal_sentence": "a hammer is to the right of a box",
+        "vertical_sentence": "a person is above a remote control"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/dining_room/rgb_01409.jpg",
+        "image_caption": "a view of a room with a sliding glass door",
+        "depth_sentence": "a shelves is farther away than a floor mat",
+        "horizontal_sentence": "a picture is to the right of a floor mat",
+        "vertical_sentence": "a shelves is above a floor mat"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/dining_room/rgb_01411.jpg",
+        "image_caption": "a dining room table with chairs and a lamp",
+        "depth_sentence": "a blinds is more distant than a glass",
+        "horizontal_sentence": "a fan is to the left of a table",
+        "vertical_sentence": "a box is below a fan"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/dining_room/rgb_01412.jpg",
+        "image_caption": "a room with a table, chairs, and a painting",
+        "depth_sentence": "a vase is in front of a book",
+        "horizontal_sentence": "a toy is to the left of a bag",
+        "vertical_sentence": "a saucer is below a blinds"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/dining_room/rgb_01413.jpg",
+        "image_caption": "a dining room table with a lamp and a dresser",
+        "depth_sentence": "a tray is behind a baby chair",
+        "horizontal_sentence": "a tray is to the right of a stroller",
+        "vertical_sentence": "a stroller is below a tray"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/dining_room/rgb_01420.jpg",
+        "image_caption": "a dining room table and chairs in a room",
+        "depth_sentence": "a fan is farther away than a table",
+        "horizontal_sentence": "a cabinet is to the left of a cup",
+        "vertical_sentence": "a fan is above a vase"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/dining_room/rgb_01421.jpg",
+        "image_caption": "a piano in a room with pictures on the wall",
+        "depth_sentence": "a glass ware is nearer than a lamp",
+        "horizontal_sentence": "a piano bench is to the left of a tray",
+        "vertical_sentence": "a cup is above a piano bench"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/dining_room/rgb_01423.jpg",
+        "image_caption": "a dining room table and chairs",
+        "depth_sentence": "a vase is nearer than a door",
+        "horizontal_sentence": "a flower is to the left of a door",
+        "vertical_sentence": "a floor mat is below a bookshelf"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/dining_room/rgb_01431.jpg",
+        "image_caption": "a dining room table with chairs and a staircase",
+        "depth_sentence": "a clothes is nearer than a bag",
+        "horizontal_sentence": "a clothes is to the right of a door",
+        "vertical_sentence": "a stairs is above a bag"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/dining_room/rgb_01440.jpg",
+        "image_caption": "a kitchen table with a pile of clothes on it",
+        "depth_sentence": "a serving dish is more distant than a floor mat",
+        "horizontal_sentence": "a serving dish is to the left of a chair",
+        "vertical_sentence": "a chair is below a serving dish"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/dining_room/rgb_01441.jpg",
+        "image_caption": "a dining room with a table and chairs",
+        "depth_sentence": "an electrical outlet is in front of a window",
+        "horizontal_sentence": "a window is to the right of a book",
+        "vertical_sentence": "an electrical outlet is below a book"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/dining_room/rgb_01442.jpg",
+        "image_caption": "a table with red chairs and a red rug",
+        "depth_sentence": "a counter is nearer than a lamp",
+        "horizontal_sentence": "a lamp is to the left of a counter",
+        "vertical_sentence": "a floor mat is below a counter"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/dining_room/rgb_01444.jpg",
+        "image_caption": "two chairs in a room with a rug and a table",
+        "depth_sentence": "a light is more distant than a lamp",
+        "horizontal_sentence": "a light is to the right of a lamp",
+        "vertical_sentence": "a lamp is below a light"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/dining_room/rgb_01446.jpg",
+        "image_caption": "a dining room table with chairs",
+        "depth_sentence": "a flower pot is in front of a candelabra",
+        "horizontal_sentence": "a chandelier is to the left of a box",
+        "vertical_sentence": "a paper is below a candelabra"
+    },
+    {
+        "test_image_path": "/nyu_depth_v2/official_splits/test/dining_room/rgb_01448.jpg",
+        "image_caption": "a dining room table with chairs",
+        "depth_sentence": "a floor mat is in front of a fireplace",
+        "horizontal_sentence": "a fireplace is to the left of a vase",
+        "vertical_sentence": "a flower is below a chandelier"
+    }
+]
