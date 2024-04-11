@@ -1,4 +1,4 @@
-## "On the Robustness of Language Guidance for Low-Level Vision Tasks: Findings from Depth Estimation"
+## On the Robustness of Language Guidance for Low-Level Vision Tasks: Findings from Depth Estimation
 
 <p align="center">
     📃 <a href="https://agneetchatterjee.com/" target="_blank">Paper</a> |
