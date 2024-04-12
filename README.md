@@ -2,7 +2,7 @@
 
 <p align="center">
     📃 <a href="https://agneetchatterjee.com/" target="_blank">Paper</a> |
-    🎮 <a href="https://agneetchatterjee.com/" target="_blank">Project Website</a>
+    🎮 <a href="https://agneetchatterjee.com/robustness_depth_lang/" target="_blank">Project Website</a>
 </p>
 
 ## 📄 Abstract
