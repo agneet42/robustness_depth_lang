@@ -34,11 +34,11 @@ Refer to the [`sample_scripts/`](./sample_scripts) directory.
 ## 📜 Citing
 
 ```bibtex
-@misc{chatterjee2024XYZ,
-      title={XYZ}, 
-      author={XYZ},
+@misc{chatterjee2024robustness,
+      title={On the Robustness of Language Guidance for Low-Level Vision Tasks: Findings from Depth Estimation}, 
+      author={Agneet Chatterjee and Tejas Gokhale and Chitta Baral and Yezhou Yang},
       year={2024},
-      eprint={XYZ},
+      eprint={2404.08540},
       archivePrefix={arXiv},
       primaryClass={cs.CV}
 }
