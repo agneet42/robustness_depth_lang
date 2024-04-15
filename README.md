@@ -1,7 +1,7 @@
 ## On the Robustness of Language Guidance for Low-Level Vision Tasks: Findings from Depth Estimation
 
 <p align="center">
-    📃 <a href="https://agneetchatterjee.com/" target="_blank">Paper</a> |
+    📃 <a href="https://arxiv.org/abs/2404.08540" target="_blank">Paper</a> |
     🎮 <a href="https://agneetchatterjee.com/robustness_depth_lang/" target="_blank">Project Website</a>
 </p>
 
