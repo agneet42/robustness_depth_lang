@@ -34,13 +34,13 @@ Refer to the [`sample_scripts/`](./sample_scripts) directory.
 ## 📜 Citing
 
 ```bibtex
-@misc{chatterjee2024robustness,
-      title={On the Robustness of Language Guidance for Low-Level Vision Tasks: Findings from Depth Estimation}, 
-      author={Agneet Chatterjee and Tejas Gokhale and Chitta Baral and Yezhou Yang},
-      year={2024},
-      eprint={2404.08540},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@InProceedings{Chatterjee_2024_CVPR,
+    author    = {Chatterjee, Agneet and Gokhale, Tejas and Baral, Chitta and Yang, Yezhou},
+    title     = {On the Robustness of Language Guidance for Low-Level Vision Tasks: Findings from Depth Estimation},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2024},
+    pages     = {2794-2803}
 }
 ```
 
